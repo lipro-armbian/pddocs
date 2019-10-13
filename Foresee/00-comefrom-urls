@@ -36,5 +36,8 @@ http://www.kindlehk.com/
 https://linux-sunxi.org/DDR3#NCLD3B2512M32
 --> https://linux-sunxi.org/images/9/93/FORESEE_178ball_12x11.5_LPDDR3_16G_Spec_V1.0-1228.pdf
     --> NCLD3B1256M32/NC-LPDDR3-(8,16)Gbit-S-DIE-(X32).pdf
+https://dl.radxa.com/rockpi4/docs/hw/datasheets/
+--> https://dl.radxa.com/rockpi4/docs/hw/datasheets/FORESEE_LPDDR4_200ball_NCLD4CXMAXXXM32_10x14.5_VFBGA_Spec_B1_20170802.pdf
+    --> NCLD4C1MA256M32/NC-LPDDR4-(8,16,24,32)Gbit-MA-DIE-(X32).pdf
 https://linux-sunxi.org/DDR3#Foresee
 https://linux-sunxi.org/Replace_NAND_with_eMMC_howto
