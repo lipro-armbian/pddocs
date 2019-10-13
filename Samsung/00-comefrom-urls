@@ -1,3 +1,7 @@
 http://www.samsung.com/
 --> https://www.samsung.com/semiconductor
+    --> https://www.samsung.com/semiconductor/support/technical-resources
+        --> https://www.samsung.com/semiconductor/global.semi/file/resource/2017/11/ddr3_device_operation_timing_diagram_rev14-2.pdf
+        --> https://www.samsung.com/semiconductor/global.semi/file/resource/2017/11/DDR3_Product_guide_Oct.16[2]-0.pdf
+        --> https://www.samsung.com/semiconductor/global.semi/file/resource/2017/11/ddr3_code-0.pdf
 https://linux-sunxi.org/DDR3#Samsung
