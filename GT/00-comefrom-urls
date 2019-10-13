@@ -1,2 +1,5 @@
 https://linux-sunxi.org/DDR3#GT
+--> https://github.com/SoM-Boards/SoM-allwinnerA10/raw/master/docs/GT-DDR3-4Gbit-B-DIE-x8%20x16.pdf
+    --> GT-DDR3-4Gbit-B-DIE-(X4,X8,X16).pdf
 http://dl.linux-sunxi.org/chips
+--> http://dl.linux-sunxi.org/chips/GT-DDR3-2Gbit-B-DIE-(X8,X16).pdf
