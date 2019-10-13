@@ -33,5 +33,8 @@ http://www.kindlehk.com/
         --> FSEIED39-16G/eMMC-5.0-NAND-(128,256,512)Gbit-(X1,X4,X8).pdf
     --> http://www.kindlehk.com/updatefile/file/20190410205408_26501.pdf
         --> NCEMAD9D-16G/eMMC-5.1-NAND-128Gbit-(X1,X4,X8).pdf
+https://linux-sunxi.org/DDR3#NCLD3B2512M32
+--> https://linux-sunxi.org/images/9/93/FORESEE_178ball_12x11.5_LPDDR3_16G_Spec_V1.0-1228.pdf
+    --> NCLD3B1256M32/NC-LPDDR3-(8,16)Gbit-S-DIE-(X32).pdf
 https://linux-sunxi.org/DDR3#Foresee
 https://linux-sunxi.org/Replace_NAND_with_eMMC_howto
