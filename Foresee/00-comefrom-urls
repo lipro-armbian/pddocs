@@ -9,5 +9,8 @@ http://www.longsys.com
 http://dl.cubieboard.org/model/CubieBoard3/CubieBoard3%20TSD%20Version
 --> http://dl.cubieboard.org/model/CubieBoard3/CubieBoard3%20TSD%20Version/FORESEE%20tSD(G3A)%20SPEC%20A2%20130808.pdf
     --> NCTSTS86-04G/tSD-NAND-(32,64,128,256)Gbit-(X4,SPI).pdf
+https://wiki.pine64.org/index.php/ROCK64_Main_Page#Datasheets_for_Components_and_Peripherals
+--> http://files.pine64.org/doc/datasheet/pine64/FORESEE_eMMC_NCEMBSF9-xxG%20SPEC%20A0%2020150730.pdf
+    --> NCEMBSF9-16G/eMMC-5.0-NAND(128,256)Gbit-(X1,X4,X8).pdf
 https://linux-sunxi.org/DDR3#Foresee
 https://linux-sunxi.org/Replace_NAND_with_eMMC_howto
