@@ -6,5 +6,8 @@ http://www.foresee.cc/en
 http://www.longsys.com
 --> http://www.longsys.com/portfolio-category/embedded/
     --> http://www.longsys.com/portfolio/emmc/
+http://dl.cubieboard.org/model/CubieBoard3/CubieBoard3%20TSD%20Version
+--> http://dl.cubieboard.org/model/CubieBoard3/CubieBoard3%20TSD%20Version/FORESEE%20tSD(G3A)%20SPEC%20A2%20130808.pdf
+    --> NCTSTS86-04G/tSD-NAND-(32,64,128,256)Gbit-(X4,SPI).pdf
 https://linux-sunxi.org/DDR3#Foresee
 https://linux-sunxi.org/Replace_NAND_with_eMMC_howto
