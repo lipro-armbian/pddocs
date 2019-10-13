@@ -1,6 +1,7 @@
 # Public Domain Documents
 
 - [Notes](#notes)
+- [Cubietech](#cubietech)
 
 ---
 
@@ -8,6 +9,21 @@
 
 Open and convert `.dwg` and `.dxf` with FreeCAD and ODA File Converter, see:
 https://askubuntu.com/a/1136178
+
+---
+
+## Cubietech
+
+* http://www.cubietech.com/
+* http://cubieboard.org/
+  * http://cubieboard.org/model
+  * http://cubieboard.org/download
+    * http://dl.cubieboard.org/
+  * http://docs.cubieboard.org/
+* https://linux-sunxi.org/
+  * http://dl.linux-sunxi.org/
+* http://cubian.org/
+* https://www.armbian.com/download/?tx_maker=cubietech
 
 ---
 
