@@ -5,6 +5,7 @@
   - [USB UART Cable](#usb-uart-cable)
   - [CubieBoard 1](#cubieboard-1)
   - [CubieBoard 2](#cubieboard-2)
+  - [CubieBoard 3 - CubieTruck](#cubieboard-3---cubietruck)
 
 ---
 
@@ -200,6 +201,80 @@ https://askubuntu.com/a/1136178
 #### Armbian
 
 * https://www.armbian.com/cubieboard-2/ (End of Support)
+
+---
+
+### CubieBoard 3 - CubieTruck
+
+#### Construction
+
+| Release    | Schematic                                                                             | Layout (PCB)    | 2D Drawing | 3D Model   | Status     |
+| :--------: | :-----------------------------------------------------------------------------------: | :-------------: | :--------: | :--------: | :--------: |
+| V1         | [2013-06-06](Cubietech/CubieBoard3-CubieTruck/CAD/A20_Cubietruck_HW_V10_130606.pdf)   | V1.0-0606       |            |            | **EOL**    |
+| V2         | [2018-04-24](Cubietech/CubieBoard3-CubieTruck/CAD/A20_CT_V20-20180424.pdf)            | V2.0-20180303   |            |            |            |
+
+#### Components
+
+##### Electronic Parts
+
+| Component                                          | Manufactor                                    | Name                                     | V1 **(EOL)**                 | V2                           | Package         | Refs            |
+| :------------------------------------------------- | :-------------------------------------------- | :--------------------------------------- | :--------------------------: | :--------------------------: | :-------------- | :-------------: |
+| Central Procesing Unit (CPU), ARM Cortex-A7 @ 1GHz | [*Allwinner*](Allwinner/00-comefrom-urls)     | [**A20**](Allwinner/A20)                 | `1U1`                        | `1U1`                        | FBGA441-0.8mm   | [IMG][iCB3CPU]  |
+| Random Access Memory (DDR3-SDRAM), 1GB @ 480MHz    | [*GT*](GT/00-comefrom-urls)                   | [**GT8UB256M8BN**](GT/GT8UB256M8BN)      | `1U2`, `1U3`, `1U4`, `1U5`   | `1U2`, `1U3`, `1U4`, `1U5`   | FBGA78-0.8mm    |                 |
+|                                                    | [*Samsung*](Samsung/00-comefrom-urls)         | [**K4B1G0846E**](Samsung/K4B1G0846E)     |                              |                              |                 |                 |
+| Random Access Memory (DDR3-SDRAM), 2GB @ 480MHz    | [*GT*](GT/00-comefrom-urls)                   | [**GT8UB512M8BP**](GT/GT8UB512M8BP)      |                              |                              |                 | [IMG][iCB3DDRG] |
+|                                                    | [*Hynix*](Hynix/00-comefrom-urls)             | [**H5TQ4G83AFR**](Hynix/H5TQ4G83AFR)     |                              |                              |                 | [IMG][iCB3DDRH] |
+| NAND Technology Flash (NAND-Flash), 8GB            | [*Hynix*](Hynix/00-comefrom-urls)             | [**H27UCG8T2BTR**](Hynix/H27UCG8T2BTR)   | `U4`                         | `U4`                         | TSOP48-0.5mm    | [IMG][iCB3NAND] |
+| TSOP SD (tSD) Card (1.1/2.0) NAND Flash, 8G        | [*Foresee*](Foresee/00-comefrom-urls)         | [**NCTSTS76-08G**](Foresee/NCTSTS76-08G) |                              |                              |                 | [IMG][iCB3TSD]  |
+| embedded Multi Media Card (eMMC) NAND Flash, 8G    | [*Foresee*](Foresee/00-comefrom-urls)         | [**NCEMAM6G-08G**](Foresee/NCEMAM6G-08G) |                              | `U39A`                       | BGA169-0.5mm    | [IMG][iCB3EMMC] |
+| Power Management IC (PMIC), Li-Battery Charger     | [*X-Powers*](X-Powers/00-comefrom-urls)       | [**AXP209**](X-Powers/AXP209)            | `U9`                         | `U9`                         | QFN48-0.4mm     | [IMG][iCB3PMIC] |
+| Step Down Regulator, 1.5V (DDR3), 3.3V (I/O)       |                                               |  **TCS4199**                             | `U7`, `U8`                   | `U7`, `U8`                   | SOT23-5         |                 |
+| LDO Voltage Regulator, 2.5V (SATA)                 | [*TCS*](TCS/00-comefrom-urls)                 | [**TCS2108-25**](TCS)                    | `U10`                        | `U10`                        | SOT25-0.95mm    |                 |
+| pMOSFET 2.5-V (G-S) 1A, 5V (SATA)                  | [*TCS*](TCS/00-comefrom-urls)                 | [**TCS1305**](TCS)                       | `Q1`                         | `Q1`                         | SOT23-0.95mm    | [IMG][iCB1SATA] |
+| Low RDS(ON) Load Switch, VBUS USB Host             | [*TCS*](TCS/00-comefrom-urls)                 | [**TCS9708**](TCS)                       | `U13`, `U14`                 | `U13`, `U14`                 | SOT23-5-0.95mm  |                 |
+| Low RDS(ON) Load Switch, VBUS USB OTG              | [*Silergy*](Silergy/00-comefrom-urls)         | [**SY6280**](Silergy)                    |                              | `OU2`                        | SOT23-5-0.95mm  |                 |
+|                                                    | [*TCS*](TCS/00-comefrom-urls)                 | [**TCS9708**](TCS)                       | `OU2`                        |                              |                 |                 |
+| 10/100/1000M Ethernet (GbE) PHY Receiver (EMAC)    | [*Realtek*](Realtek/00-comefrom-urls)         | [**RTL8211E**](Realtek/RTL8211E)         | `U15`                        | `U15`                        | QFN48-0.4mm     | [IMG][iCB3EMAC] |
+| WiFi 1T1R 802.11bgn + BT4.0 (SDIO v2.0, UART/PCM)  | [*AMPAK*](AMPAK/00-comefrom-urls)             | [**AP6210**](AMPAK/AP6210) SiP           | `U5`                         | `U5`                         | QFN44-0.65mm    | [IMG][iCB3WFBT] |
+| IR Receiver                                        | [*Vishay*](Vishay/00-comefrom-urls)           | [**HS0038B**](Vishay)                    | `U12`                        | `U12`                        |                 |                 |
+
+[iCB3CPU]:  Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-10.jpg
+[iCB3DDRG]: Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-11-gt.jpg
+[iCB3DDRH]: Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-11.jpg
+[iCB3NAND]: Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-23.jpg
+[iCB3TSD]:  Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-22.jpg
+[iCB3EMMC]: Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-24.jpg
+[iCB3PMIC]: Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-15.jpg
+[iCB3SATA]: Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-14.jpg
+[iCB3EMAC]: Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-13.jpg
+[iCB3WFBT]: Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-16.jpg
+
+#### Assembly
+
+![Board V1.0-0606](Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-9.jpg)
+
+* [How to use CubieTruck TSD Version](Cubietech/CubieBoard3-CubieTruck/DOC/How%20to%20use%20CubieTruck%20TSD%20Version.pdf)
+* http://www.cubietech.com/product-detail/cubieboard3
+* https://linux-sunxi.org/Cubietech_Cubietruck
+* https://github.com/allwinner-zh/documents
+
+##### Console
+
+![Console 2013-06-06](Cubietech/CubieBoard3-CubieTruck/IMG/Cubietruck-6_UART0_RevA.jpg)
+
+* https://linux-sunxi.org/Cubietech_Cubietruck#Adding_a_serial_port
+* http://linux-sunxi.org/Cubieboard/TTL
+* http://linux-sunxi.org/UART#UART-USB_dongle
+
+##### Expansion Ports
+
+| ![CubieBoard 3 - CubieTruck Expansion Ports Drawing](Cubietech/CubieBoard3-CubieTruck/CAD/a20_cubietruck_expansion_ports.png) |
+| :---------------------------------------------------------------------------------------------------------------------------: |
+| [*Drawing*](Cubietech/CubieBoard3-CubieTruck/CAD/a20_cubietruck_expansion_ports.pdf)                                          |
+
+#### Armbian
+
+* https://www.armbian.com/cubietruck/ (Supported)
 
 ---
 
