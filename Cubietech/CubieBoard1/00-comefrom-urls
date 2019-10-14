@@ -1,5 +1,39 @@
 http://www.cubietech.com/product-detail/cubieboard1
+--> http://www.cubietech.com/wp-content/uploads/cubieboard1/cubieboard1-1.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard1/cubieboard1-2.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard1/cubieboard1-3.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard1/cubieboard1-4.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard1/cubieboard1-5.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard1/cubieboard1-6.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard1/cubieboard1-7.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard1/cubieboard1-8.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard1/cubieboard1-10.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard1/cubieboard1-11.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard1/cubieboard1-12.jpg
 http://cubieboard.org/model/cb1
 http://dl.cubieboard.org/model/CubieBoard1
+--> http://dl.cubieboard.org/model/CubieBoard1/Hardware/CubieBoard_component%20position.rar
+    --> cubieboard_smt_top_0829.pdf
+    --> cubieboard_smt_bottom_0829.pdf
+--> http://dl.cubieboard.org/model/CubieBoard1/Hardware/cubieboard_outline_2012-08-08_v1.1.dxf
+--> http://dl.cubieboard.org/model/CubieBoard1/Hardware/cubieboard_schematic_2012-08-08.pdf
+--> http://dl.cubieboard.org/model/CubieBoard1/Hardware/cubieboard_block_diagram.pdf
+--> http://dl.cubieboard.org/model/CubieBoard1/Test%20reports/FCC%20Part15B%20test%20report%20cubieboard1.pdf
+--> http://dl.cubieboard.org/model/CubieBoard1/Test%20reports/FCC%20Verification%20of%20cubieboard1.pdf
+http://dl.cubieboard.org/model/CubieBoard2
+--> http://dl.cubieboard.org/model/CubieBoard2/CubieBoard2-20120909-NAND/Hardware/Cubieboard1&2%20Mechanical_120909.rar
+    --> Cubieboard1&2 Mechanical_120909.dxf
+--> http://dl.cubieboard.org/model/CubieBoard2/Case-for-CB2/Rainbow_Case/CB1&CB2%20Rainbow%20shell%20assembly%20guide.pdf
 http://docs.cubieboard.org/products/start#cubieboard1
+--> http://docs.cubieboard.org/products/a10_cubieboard/expansion_ports
+    --> http://docs.cubieboard.org/_media/products/a10_cubieboard/a10_a20_cubieboard_expansion_ports.png
+https://github.com/cubieplayer/Cubian/wiki/GPIO-Introduction
+--> https://github.com/cubieplayer/static_files/tree/gh-pages/images
+    --> https://github.com/cubieplayer/static_files/raw/gh-pages/images/gpio_defination_small.jpg
+    --> https://github.com/cubieplayer/static_files/raw/gh-pages/images/gpio_defination_large.jpg
+    --> https://github.com/cubieplayer/static_files/raw/gh-pages/images/gpio_defination_huge.jpg
+https://github.com/cubieplayer/Cubian/wiki/VGA-output
+    --> https://github.com/cubieplayer/static_files/raw/gh-pages/images/cubieboard_vga_connector.png
 https://linux-sunxi.org/Cubietech%20Cubieboard
+--> https://linux-sunxi.org/images/2/24/Cubieboard.jpeg
+--> https://linux-sunxi.org/images/c/cd/Cubieboard.UART-TTL_wire_colors.jpg
