@@ -1,0 +1,22 @@
+The official CubieBoard related resources are stored in Cubie FTP server, Mega cloud and Baidu cloud for download. Usually the resources in Cubie FTP server and Mega cloud are in English language, and the resouce in Baidu Cloud are in Chinses language. You may choose the best download source/server according to your language habits and the network speed.
+
+All of the three download source/server entries are listed in the webpage   http://cubieboard.org/download/
+
+And in order to make sure the http://cubieboard.org website server to be more stable, we have to reduce the Cubie FTP server download pressure. So many new products resource will be moved to Mega cloud. And we hope you could download these resource from Mega cloud if possible.
+
+Here I list the three download source/server entries. Our team will try our best to keep the entries link don't change, but many internal links would change frequently, since we need to update more and more resources for easy use.
+
+Cubie FTP server:
+http://dl.cubieboard.org/
+
+Mega cloud:
+https://mega.nz/#F!ZtwxCCJC!AIYHcTqz-ucjuzKnE9qD7A
+
+Baidu cloud:
+https://pan.baidu.com/s/1bppHqwf#list/path=%2F
+
+
+
+
+
+                                                                               CubieBoard Team, Aug 2017
