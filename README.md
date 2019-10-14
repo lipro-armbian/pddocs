@@ -109,7 +109,7 @@ https://askubuntu.com/a/1136178
 
 ##### Console
 
-![Console 2012-09-09](Cubietech/CubieBoard1/IMG/Cubieboard.UART-TTL_wire_colors.jpg)
+![Console 2012-09-09](Cubietech/USBUARTCable/IMG/Cubieboard.UART-TTL_wire_colors.jpg)
 
 * https://linux-sunxi.org/Cubietech_Cubieboard#Adding_a_serial_port
 * http://linux-sunxi.org/Cubieboard/TTL
