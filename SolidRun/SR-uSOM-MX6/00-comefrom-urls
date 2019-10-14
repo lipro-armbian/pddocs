@@ -1,7 +1,140 @@
 https://www.solid-run.com
 --> https://www.solid-run.com/nxp-family/imx6-som
+    --> https://www.solid-run.com/wp-content/uploads/2018/08/MicroSoM-i4P-Rev-1.5.-overviewjpg.jpg
+    --> https://www.solid-run.com/wp-content/uploads/2018/05/SOM-iMX6-top-hotspots.png
+    --> https://www.solid-run.com/wp-content/uploads/2018/05/SOM-iMX6-back-hotspots.png
+    --> https://shop.solid-run.com/wp-content/uploads/2019/08/i.MX6-Heatsink.jpeg
+        --> SOM-iMX6-heatsink.jpg
 https://wiki.solid-run.com
 --> https://wiki.solid-run.com/doku.php?id=products:imx6:microsom
+--> https://www.solid-run.com/wiki/doku.php?id=products:imx6:microsom
+    --> https://www.solid-run.com/wiki/doku.php?id=products:imx6:microsom:solo
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?cache=&media=imx6:microsom:imx-microsom-single.jpg
+	    --> imx-microsom-single.jpg
+    --> https://www.solid-run.com/wiki/doku.php?id=products:imx6:microsom:dual_lite
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?cache=&media=imx6:microsom:imx-microsom-dual_lite.jpg
+	    --> imx-microsom-dual_lite.jpg
+    --> https://www.solid-run.com/wiki/doku.php?id=products:imx6:microsom:dual
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?cache=&media=imx6:microsom:imx-microsom-dual.jpg
+	    --> imx-microsom-dual.jpg
+    --> https://www.solid-run.com/wiki/doku.php?id=products:imx6:microsom:quad
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?cache=&media=imx6:microsom:imx-microsom-quad.jpg
+	    --> imx-microsom-quad.jpg
+    --> https://www.solid-run.com/wiki/lib/exe/fetch.php?cache=&media=imx6:microsom:imx6-microsom.jpg
+        --> imx6-microsom.jpg
+    --> https://www.solid-run.com/wiki/lib/exe/fetch.php?cache=&media=imx6:microsom:imx-microsom-dimensions.jpg
+        --> imx-microsom-dimensions.jpg
+    --> https://www.solid-run.com/wiki/doku.php?id=products:imx6:microsom:imx6-fuse-developers
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=products:imx6:microsom:imx_usb_loader-solidrun-rev-1.1.tar.bz2
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=products:imx6:microsom:imx_usb_loader-solidrun.tar.bz2
+    --> https://www.solid-run.com/wiki/doku.php?id=products:imx6:microsom:imx6-fuse
+        --> http://forum.solid-run.com/i-mx6-based-microsom-sr-usom-mx6-f19/-updated-blowing-boot-fuses-mini-tutorial-t1557.html
+    --> https://www.solid-run.com/wiki/doku.php?id=products:imx6:microsom:documents
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:fuses-config:sr-usom-mx6-fusing.zip
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:fuses-config:u-boot-2009.08.fusing.tar.xz
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:sr-imx6-som-user_manual-rev1.3.pdf
+            --> sr-imx6-som-user_manual-rev1.3.pdf
+                --> sr-imx6-som-user_manual-rev1.3-001.jpg
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:sr-imx6-microsom-i1-rev15-datasheet.pdf
+            --> sr-imx6-microsom-i1-rev15-datasheet.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:sr-imx6-microsom-i2-rev15-datasheet.pdf
+            --> sr-imx6-microsom-i2-rev15-datasheet.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:sr-imx6-microsom-i2ex-rev15-datasheet.pdf
+            --> sr-imx6-microsom-i2ex-rev15-datasheet.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:sr-imx6-microsom-i4p-rev15-datasheet.pdf
+            --> sr-imx6-microsom-i4p-rev15-datasheet.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:sr-imx6-microsom-i1-rev13-datasheet.pdf
+            --> sr-imx6-microsom-i1-rev13-datasheet.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:sr-imx6-microsom-i2-rev13-datasheet.pdf
+            --> sr-imx6-microsom-i2-rev13-datasheet.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:sr-imx6-microsom-i2ex-rev13-datasheet.pdf
+            --> sr-imx6-microsom-i2ex-rev13-datasheet.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:sr-imx6-microsom-i4p-rev13-datasheet.pdf
+            --> sr-imx6-microsom-i4p-rev13-datasheet.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:sr-imx6-microsom-i4x4-rev13-datasheet.pdf
+            --> sr-imx6-microsom-i4x4-rev13-datasheet.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:sr-data_sheet-imx6-microsom-i1.pdf
+            --> sr-data_sheet-imx6-microsom-i1.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:sr-data_sheet-imx6-microsom-i2.pdf
+            --> sr-data_sheet-imx6-microsom-i2.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:sr-data_sheet-imx6-microsom-i2ex.pdf
+            --> sr-data_sheet-imx6-microsom-i2ex.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:sr-data_sheet-imx6-microsom-i4pro.pdf
+            --> sr-data_sheet-imx6-microsom-i4pro.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:sr-imx6-reach-20160121.pdf
+            --> sr-imx6-reach-20160121.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:sr-usom-mx6-an-connecting-parallel-camera.pdf
+            --> sr-usom-mx6-an-connecting-parallel-camera.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:sr-usom-mx6-an-products_longevity.pdf
+            --> sr-usom-mx6-an-products_longevity.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:sr-usom-mx6-an-suspend-to-memory-power-consumption.pdf
+            --> sr-usom-mx6-an-suspend-to-memory-power-consumption.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:microsom:docs:sr-usom-mx6-an-thermal_analysis.pdf
+            --> sr-usom-mx6-an-thermal_analysis.pdf
 https://developer.solid-run.com
 --> https://developer.solid-run.com/products/imx6-som/
+    --> https://developer.solid-run.com/download/i-mx6-som-simplified-schematics-rev-1-5?wpdmdl=885
+        --> i.MX6-SOM-Simplified-Schematics-Rev-1.5.zip
+            --> sr-usom-mx6-rev-1_3-simplified-schematics.pdf
+            --> sr-usom-mx6-rev-1_5-simplified-schematics.pdf
+    --> https://developer.solid-run.com/download/i-mx6-som-assy?wpdmdl=863
+        --> sr-imx6-microsom-rev-1.5-assy-step.zip
+            --> IMS6-SOM_Rev.1.5.stp
+    --> https://developer.solid-run.com/download/i-mx6-som-assy-2?wpdmdl=865
+        --> sr-usom-mx6-assy-rev1.5.pdf
+    --> https://developer.solid-run.com/download/i-mx6-som-assy-3?wpdmdl=867
+        --> sr-usom-mx6-assy-rev1.5-dxf.zip
+            --> IMS6-SOM_Rev.1.5.dxf
+    --> https://developer.solid-run.com/download/i-mx6-som-assy-3d-pdf?wpdmdl=869
+        --> sr-usom-mx6-assy-rev1.5-3dpdf.zip
+            --> IMS6-SOM_Rev.1.5_3D.PDF
+    --> https://developer.solid-run.com/download/i-mx6-som-b2b-connector-locations?wpdmdl=871
+        --> sr-usom-mx6-3_b2b_connectors_locations.zip
+            --> mSOM-1.3 ASSY.stp
+            --> mSOM-1.3 ASSY.pdf
+            --> mSOM-1.3 ASSY_1.pdf
+    --> https://developer.solid-run.com/download/i-mx6-som-heatsink?wpdmdl=855
+        --> imx6-heatsink-1.4.pdf
+    --> https://developer.solid-run.com/download/i-mx6-som-heatsink-2?wpdmdl=857
+        --> imx6-heatsink-dxf-1.4.zip
+            --> Heatsink for IMS ver1.3 - ver1.4_Rev.B (1).dxf
+    --> https://developer.solid-run.com/download/i-mx6-som-mechanical-difference-rev1-3-rev1-5?wpdmdl=853
+        --> sr-usom-mx6-1.3-vs-1.5.pdf
+    --> https://developer.solid-run.com/download/certificate-of-compliance-wifi-bt-i-mx6-som?wpdmdl=849
+        --> c.o.c.-sr-usom-mx6.pdf
+    --> https://developer.solid-run.com/download/datasheet-ufl-antenna-for-i-mx6-som?wpdmdl=861
+        --> sr-imx6-antenna.pdf
+    --> https://developer.solid-run.com/download/i-mx6-som-block-diagram?wpdmdl=859
+        --> Rev-1.5-Block-Digaram-1024x737.png
+    --> https://developer.solid-run.com/download/i-mx6-som-brochure?wpdmdl=847
+        --> brochure_imx6_usom_2017-09-05.pdf
+    --> https://developer.solid-run.com/download/i-mx6-som-datasheet?wpdmdl=3606
+        --> i.MX6-SOM-Datasheet.zip
+            --> 1556778829wpdm_sr-imx6-microsom-i1-rev15-datasheet.pdf
+            --> 1556778825wpdm_sr-imx6-microsom-i2-rev15-datasheet.pdf
+            --> 1556778832wpdm_sr-imx6-microsom-i2ex-rev15-datasheet.pdf
+            --> 1556778821wpdm_sr-imx6-microsom-i4p-rev15-datasheet.pdf
+    --> https://developer.solid-run.com/download/i-mx6-som-fusing?wpdmdl=881
+        --> sr-usom-mx6-fusing.zip
+    --> https://developer.solid-run.com/download/i-mx6-som-reliability-prediction?wpdmdl=883
+        --> sr-usom-mx6-reliability_prediction-rev0.pdf
+    --> https://developer.solid-run.com/download/i-mx6-som-user-manual?wpdmdl=851
+        --> sr-imx6-som-user_manual-rev1.3.pdf
+    --> https://developer.solid-run.com/download/som-i-mx6-mtbf?wpdmdl=4157
+        --> sr-usom-mx6-azurwave-reliability_prediction-rev0.pdf
+    --> https://developer.solid-run.com/download/i-mx6-som-rev-1-5-product-change-notification?wpdmdl=891
+        --> sr-usom-mx6-pcn-20160915.pdf
 --> https://developer.solid-run.com/article-categories/i-mx6-som
+--> https://developer.solid-run.com/knowledge-base
+    --> https://developer.solid-run.com/knowledge-base/efuses-for-imx6-som
+        --> SolidRun eFuses for i.MX6 SOM.pdf
+    --> https://developer.solid-run.com/knowledge-base/efuses-for-imx6-som-developers-page
+        --> SolidRun eFuses for i.MX6 SOM (Developers page).pdf
+http://forum.solid-run.com
+--> http://forum.solid-run.com/i-mx6-based-microsom-sr-usom-mx6-f19
+    --> http://forum.solid-run.com/i-mx6-based-microsom-sr-usom-mx6-f19/i-mx6-based-microsom-sr-usom-mx6-hardware-details-t1295.html
+        --> http://download.solid-run.com/pub/solidrun/SR-uSOM-mx6/rev-1.2_1.3/SolidRun%20SR-uSOM-MX6%20Reference%20Manual%20v1-1.pdf
+        --> http://download.solid-run.com/pub/solidrun/SR-uSOM-mx6/rev-1.2_1.3/SR-uSOM-MX6-rev-1_2-1_3-headers.DSN
+https://fccid.io/2ACMW-MX6/User-Manual/User-Manual-2639406.html
+--> https://fccid.io/2ACMW-MX6/User-Manual/User-Manual-2639406.pdf
+    --> sr-imx6-som-user_manual-rev1.2.pdf
