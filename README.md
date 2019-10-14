@@ -186,7 +186,7 @@ https://askubuntu.com/a/1136178
 
 ##### Console
 
-![Console 2012-09-09](Cubietech/CubieBoard2/IMG/Cubieboard.UART-TTL_wire_colors.jpg)
+![Console 2012-09-09](Cubietech/USBUARTCable/IMG/Cubieboard.UART-TTL_wire_colors.jpg)
 
 * https://linux-sunxi.org/Cubietech_Cubieboard2#Adding_a_serial_port
 * http://linux-sunxi.org/Cubieboard/TTL
@@ -194,9 +194,9 @@ https://askubuntu.com/a/1136178
 
 ##### Expansion Ports
 
-| ![CubieBoard 2 Expansion Ports Drawing](Cubietech/CubieBoard2/CAD/a10_a20_cubieboard_expansion_ports.png) | ![Cubian GPIO Pin Definition](Cubietech/CubieBoard2/CAD/gpio_defination_large.jpg) |
+| ![CubieBoard 1 Expansion Ports Drawing](Cubietech/CubieBoard1/CAD/a10_a20_cubieboard_expansion_ports.png) | ![Cubian GPIO Pin Definition](Cubietech/CubieBoard1/CAD/gpio_defination_large.jpg) |
 | :-------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
-| [*Drawing*](Cubietech/CubieBoard2/CAD/a10_a20_cubieboard_expansion_ports.pdf)                             | [*Drawing*](Cubietech/CubieBoard2/CAD/gpio_defination_cubian.pdf)                  |
+| [*Drawing*](Cubietech/CubieBoard1/CAD/a10_a20_cubieboard_expansion_ports.pdf)                             | [*Drawing*](Cubietech/CubieBoard1/CAD/gpio_defination_cubian.pdf)                  |
 
 #### Armbian
 
