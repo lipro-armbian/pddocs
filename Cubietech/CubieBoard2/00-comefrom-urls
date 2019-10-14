@@ -1,5 +1,58 @@
 http://www.cubietech.com/product-detail/cubieboard2
+--> http://www.cubietech.com/wp-content/uploads/cubieboard2/cubieboard2-1.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard2/cubieboard2-2.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard2/cubieboard2-3.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard2/cubieboard2-4.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard2/cubieboard2-5.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard2/cubieboard2-8.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard2/cubieboard2-9.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard2/cubieboard2-10.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard2/cubieboard2-12.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard2/cubieboard2-13.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard2/CubieBoard2-18.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard2/CubieBoard2-21.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard2/CubieBoard2-22.jpg
+--> http://www.cubietech.com/wp-content/uploads/cubieboard2dc/cubieboard2dc-11.jpg
 http://cubieboard.org/model/cb2
 http://dl.cubieboard.org/model/CubieBoard2
+--> http://dl.cubieboard.org/model/CubieBoard2/How%20To%20Distinguish%20Your%20CubieBoard2%20Version.pdf
+--> http://dl.cubieboard.org/model/CubieBoard2/CubieBoard2-20120909-NAND/Hardware/Cubieboard1&2%20Mechanical_120909.rar
+    --> Cubieboard1&2 Mechanical_120909.dxf
+--> http://dl.cubieboard.org/model/CubieBoard2/CubieBoard2-20120909-NAND/Hardware/cubieboard_schematic_2012-08-08.pdf
+--> http://dl.cubieboard.org/model/CubieBoard2/CubieBoard2-20120909-DualCard/Hardware/cubieboard_schematic_2012-08-08.pdf
+--> http://dl.cubieboard.org/model/CubieBoard2/CubieBoard2-20151211-EMMC/Hardware/Board/cb2_a20_20151211.pdf
+--> http://dl.cubieboard.org/model/CubieBoard2/CubieBoard2-20151211-EMMC/Hardware/CubieBoard2-20151211%203D%20model/CubieBoard2-20151211-3D%20model.stp
+--> http://dl.cubieboard.org/model/CubieBoard2/CubieBoard2-20151211-EMMC/Hardware/CubieBoard2-20151211%203D%20model/CubieBoard2-3D-Bottom.pdf
+--> http://dl.cubieboard.org/model/CubieBoard2/CubieBoard2-20151211-EMMC/Hardware/CubieBoard2-20151211%203D%20model/CubieBoard2-3D-Lateral1.pdf
+--> http://dl.cubieboard.org/model/CubieBoard2/CubieBoard2-20151211-EMMC/Hardware/CubieBoard2-20151211%203D%20model/CubieBoard2-3D-Lateral2.pdf
+--> http://dl.cubieboard.org/model/CubieBoard2/CubieBoard2-20151211-EMMC/Hardware/CubieBoard2-20151211%203D%20model/CubieBoard2-3D-Top.pdf
+--> http://dl.cubieboard.org/model/CubieBoard2/CubieBoard2-20151211-EMMC/Hardware/CubieBoard2-20151211%203D%20model/readme.txt
+--> http://dl.cubieboard.org/model/CubieBoard2/CubieBoard2-20120909-NAND/Hardware/Certification/CE%20Verification%20for%20Cubieboard2.pdf
+--> http://dl.cubieboard.org/model/CubieBoard2/CubieBoard2-20120909-NAND/Test%20reports/CE%20Verification%20for%20Cubieboard2.pdf
+--> http://dl.cubieboard.org/model/CubieBoard2/CubieBoard2-20120909-NAND/Hardware/Certification/CE%20test%20report%20for%20Cubieboard2.pdf
+--> http://dl.cubieboard.org/model/CubieBoard2/CubieBoard2-20120909-NAND/Test%20reports/CE%20test%20report%20for%20Cubieboard2.pdf
+--> http://dl.cubieboard.org/model/CubieBoard2/CubieBoard2-20120909-NAND/Hardware/Certification/FCC%20Verification%20for%20Cubieboard2.pdf
+--> http://dl.cubieboard.org/model/CubieBoard2/CubieBoard2-20120909-NAND/Test%20reports/FCC%20Verification%20for%20Cubieboard2.pdf
+--> http://dl.cubieboard.org/model/CubieBoard2/CubieBoard2-20120909-NAND/Hardware/Certification/FCC%20test%20report%20for%20Cubieboard2.pdf
+--> http://dl.cubieboard.org/model/CubieBoard2/CubieBoard2-20120909-NAND/Test%20reports/FCC%20test%20report%20for%20Cubieboard2.pdf
+--> http://dl.cubieboard.org/model/CubieBoard2/Case-for-CB2/Rainbow_Case/CB1&CB2%20Rainbow%20shell%20assembly%20guide.pdf
+http://dl.cubieboard.org/model/CubieBoard1
+--> http://dl.cubieboard.org/model/CubieBoard1/Hardware/CubieBoard_component%20position.rar
+    --> cubieboard_smt_top_0829.pdf
+    --> cubieboard_smt_bottom_0829.pdf
+--> http://dl.cubieboard.org/model/CubieBoard1/Hardware/cubieboard_outline_2012-08-08_v1.1.dxf
+--> http://dl.cubieboard.org/model/CubieBoard1/Hardware/cubieboard_block_diagram.pdf
 http://docs.cubieboard.org/products/start#cubieboard2
+http://docs.cubieboard.org/products/start#cubieboard1
+--> http://docs.cubieboard.org/products/a10_cubieboard/expansion_ports
+    --> http://docs.cubieboard.org/_media/products/a10_cubieboard/a10_a20_cubieboard_expansion_ports.png
+https://github.com/cubieplayer/Cubian/wiki/GPIO-Introduction
+--> https://github.com/cubieplayer/static_files/tree/gh-pages/images
+    --> https://github.com/cubieplayer/static_files/raw/gh-pages/images/gpio_defination_small.jpg
+    --> https://github.com/cubieplayer/static_files/raw/gh-pages/images/gpio_defination_large.jpg
+    --> https://github.com/cubieplayer/static_files/raw/gh-pages/images/gpio_defination_huge.jpg
+https://github.com/cubieplayer/Cubian/wiki/VGA-output
+    --> https://github.com/cubieplayer/static_files/raw/gh-pages/images/cubieboard_vga_connector.png
 https://linux-sunxi.org/Cubietech%20Cubieboard2
+--> https://linux-sunxi.org/images/b/bf/Cubieboard2_Overview.jpg
+    --> Cubieboard2.jpeg
