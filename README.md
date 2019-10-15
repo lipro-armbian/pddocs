@@ -6,6 +6,7 @@
   - [CubieBoard 1](#cubieboard-1)
   - [CubieBoard 2](#cubieboard-2)
   - [CubieBoard 3 - CubieTruck](#cubieboard-3---cubietruck)
+- [SolidRun](#solidrun)
 
 ---
 
@@ -362,6 +363,22 @@ https://askubuntu.com/a/1136178
 #### Armbian
 
 * https://www.armbian.com/cubietruck/ (Supported)
+
+---
+
+## SolidRun
+
+* https://www.solid-run.com/
+* https://wiki.solid-run.com/
+* https://developer.solid-run.com/
+  * https://github.com/SolidRun/linux-fslc/tree/solidrun-imx_4.9.x_1.0.0_ga
+* http://forum.solid-run.com/
+* https://community.nxp.com/community/imx
+* http://freescale.github.io/
+  * https://github.com/Freescale/u-boot-fslc/tree/2019.10+fslc
+  * https://github.com/Freescale/linux-fslc/tree/5.3.x+fslc
+* https://www.armbian.com/download/?tx_maker=solidrun
+* https://xbian.org/getxbian
 
 ---
 
