@@ -8,6 +8,7 @@
   - [CubieBoard 3 - CubieTruck](#cubieboard-3---cubietruck)
 - [SolidRun](#solidrun)
   - [SR-uSOM-MX6](#sr-usom-mx6)
+  - [SR-iMX6-HB2 - HummingBoard 2](#sr-imx6-hb2---hummingboard-2)
 
 ---
 
@@ -511,6 +512,126 @@ WandBoard SOM reference design [WBQUAD REV B1 (20130620)]. That are:**
 * https://developer.solid-run.com/products/imx6-som
 * https://developer.solid-run.com/article-categories/i-mx6-som
 * http://forum.solid-run.com/i-mx6-based-microsom-sr-usom-mx6-f19
+
+### SR-iMX6-HB2 - HummingBoard 2
+
+#### Construction
+
+| Release    | Schematic                                     | Layout<span class='hint'>\*</span> (PCB)                     | 2D Drawing                                    | 3D Model                                      | Status     |
+| :--------: | :-------------------------------------------: | :----------------------------------------------------------: | :-------------------------------------------: | :-------------------------------------------: | :--------: |
+| V1.2       | [DSN][dSRHB2V12DSN] ([PDF][dSRHB2V12PSC])     | [GDO][dSRHB2V12GDO] ([CS][dSRHB2V12PCS] [PS][dSRHB2V12PPS])  | [DXF][dSRHB2V12DXF] ([PDF][dSRHB2V12P2D])     | [PDF][dSRHB2V12P3D]                           | **EOL**    |
+| V1.4       | [PDF][dSRHB2V14PSC]                           | [PRJ][dSRHB2V14PRJ] ([CS][dSRHB2V14PCS] [PS][dSRHB2V14PPS])  |                                               | [STP][dSRHB2V14STP] ([PDF][dSRHB2V14P3D])     |            |
+
+<span class='hint'>\* HINT:</span> PRJ - OrCAD project, GDO - Gerber, CS - component side (PDF), PS - print/solder side (PDF)
+
+[dSRHB2V12DSN]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/CAD/hummingboard2_schematics_rev_1.2.dsn
+   "2015-07-14 (HummingBoard2, Rev: V1.2)"
+[dSRHB2V12PSC]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/CAD/hummingboard2_schematics_rev_1.2.pdf
+   "2015-07-14 (HummingBoard2, Rev: V1.2)"
+[dSRHB2V12GDO]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/sr-imx6-hb2-gerber-rev1.2.zip
+   "2015-06-25 (HummingBoard2 REV-1.2 Gerber, Drill, Pick&Place)"
+[dSRHB2V12PCS]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/sr-imx6-hb2-gerber-rev1.2/HummingBoard2%20Rev%201.2%20top.pdf
+   "2015-06-25 (HummingBoard2 REV-1.2 Solderscreen Soldermask Solderpaste Top)"
+[dSRHB2V12PPS]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/sr-imx6-hb2-gerber-rev1.2/HummingBoard2%20Rev%201.2%20bottom.pdf
+   "2015-06-25 (HummingBoard2 REV-1.2 Solderscreen Soldermask Solderpaste Bot)"
+[dSRHB2V12DXF]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/CAD/Hummingboard.2%20WITH%20Connectors_rev.1.dxf
+   "2018-04-02 (Hummingboard.2 WITH Connectors_rev.1)"
+[dSRHB2V12P2D]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/CAD/Hummingboard.2%20WITH%20Connectors_rev.1_2D.pdf
+   "2018-04-02 (Hummingboard.2 WITH Connectors_rev.1)"
+[dSRHB2V12P3D]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/CAD/Hummingboard.2%20WITH%20Connectors_rev.1_3D.pdf
+   "2018-04-02 (Hummingboard.2 WITH Connectors_rev.1)"
+[dSRHB2V14PSC]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/CAD/sr-imx6-hb2-schematics-rev1_4.pdf
+   "2017-05-15 (HUMMINGBOARD2, Rev: V1.4)"
+[dSRHB2V14PRJ]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/CAD/sr-imx6-hummingboard_2-v1.4-layout_pcb.zip
+   "2017-01-23 (hummingboard 2-v1.3.pcb)"
+[dSRHB2V14PCS]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/hummingboard%202-v1.4-Assy/HummingBoard2%20Rev%201.4%20top.pdf
+   "2017-01-23 (HUMMINGBOARD2 REV 1.4 ASSEMBLY DRAWING C.S.)"
+[dSRHB2V14PPS]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/hummingboard%202-v1.4-Assy/HummingBoard2%20Rev%201.4%20bottom.pdf
+   "2017-01-23 (HUMMINGBOARD2 REV 1.4 ASSEMBLY DRAWING P.S.)"
+[dSRHB2V14STP]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/CAD/HummingBoard.2_rev.2.3.stp
+   "2018-10-08 (HummingBoard.2_rev.2.3 / Hummingboard.2 WITH Connectors_rev.1)"
+[dSRHB2V14P3D]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/CAD/HummingBoard.2_rev.2.3.pdf
+   "2017-05-02 (HummingBoard.2_rev.2.3)"
+
+#### Components
+
+##### Electronic Parts
+
+| Component                                          | Manufactor                                    | Name                                     | V1.2 **(EOL)**  | V1.4            | Package         | Refs            |
+| :------------------------------------------------- | :-------------------------------------------- | :--------------------------------------- | :-------------: | :-------------: | :-------------- | :-------------: |
+| embedded Multi Media Card (eMMC) NAND Flash, 8GB   | [*Samsung*](Samsung/00-comefrom-urls)         | [**KLM8G1GETF-B041**](Samsung/KLM8G1GETF-B041) | `U10001`  | `U10001`        | FBGA153-0.5mm   |                 |
+| embedded Multi Media Card (eMMC) NAND Flash, 4GB   |                                               | [**KLM4G1FEAC-B031**](Samsung)           |                 |                 |                 |                 |
+| I2S DSP Analog Audio Codec with Headphone Amp      | [*NXP*](NXP/00-comefrom-urls)                 | [**SGTL5000XNAA3/R2**](NXP/SGTL5000)     | `U4`            | `U4`            | QFN32-0.5mm     |                 |
+| 4 Port USB 2.0 Hub Controller (HX2VL)              | [*Cypress*](Cypress/00-comefrom-urls)         | [**CY7C65632-28LTXC**](Cypress/HX2VL)    | `U7`            |                 | QFN28-0.5mm     |                 |
+| 4 Port USB 2.0 Hub Controller                      | [*Microchip*](Microchip/00-comefrom-urls)     | [**USB2514BI-AEZG**](Microchip/USB251XBX) |                | `U10004`        | QFN36-0.5mm     |                 |
+| IIC/I2C Real-Time Clock (RTC) and calendar         | [*NXP*](NXP/00-comefrom-urls)                 | [**PCF8523T/1,118**](NXP/PCF8523)        | `U16`           | `U16`           | SOT96-1-1.27mm  | *I2C1* @ `0x68` |
+| IIC/I2C 12-Bit 4-Ch MUX-Input SAR ADC              | [*TI*](TI/00-comefrom-urls)                   | [**ADS7924IRTER**](TI/ADS7924)           | `U13`           | `U13`           | WQFN16-0.5mm    |                 |
+| Step Down DC-DC Regulator, 3.2V and 5V (BOARD)     | [*Richtek*](Richtek/00-comefrom-urls)         | [**RT2875BQGCP**](Richtek)               | `U23`, `U24`    | `U23`, `U24`    | TSSOP14-0.65mm  |                 |
+| LDO Voltage Regulator, 1.5V (miniPCIE)             | [*TWS*](TWS/00-comefrom-urls)                 | [**TS9011ACX**](TWS)                     | `U6`            | `U6`            | SOT23-0.95mm    |                 |
+| LDO Voltage Regulator, 1.8V (AUDIOCODEC max. 1.9V) | [*TWS*](TWS/00-comefrom-urls)                 | [**TS9011DCX**](TWS)                     | `U20`           | `U20`           | SOT23-0.95mm    | opt: SD Card    |
+|                                                    | [*Microchip*](Microchip/00-comefrom-urls)     | [**MCP1700T-1802E/TT**](Microchip)       |                 |                 |                 |                 |
+| Dual Channel Power Switch (500mA USB 1 - 4)        | [*Micrel*](Micrel/00-comefrom-urls)           | [**MIC2026-1YM**](Micrel)                | `U9`, `U22`     | `U9`, `U22`     | SOIC8-1.27mm    | max. 350mA/USB  |
+|                                                    | [*Diodes*](Diodes/00-comefrom-urls)           | [**AP2162ASG-13**](Diodes)               | *NOT pin-comp.* |                 |                 |                 |
+| CMOS Dual Non-Inverting Buffer (RS-232 CONSOLE)    | [*ONSemi*](ONSemi/00-comefrom-urls)           | [**NLX2G16AMX1TCG**](ONSemi)             | `U3`            | `U3`            | UDFN6-0.5mm     | 7V protection   |
+
+#### Assembly
+
+| ![Board 2017-01-23 Top][iSRHB2GBRDC]                         | ![Board 2017-01-23 Bottom][iSRHB2GBRDP]                            |
+| :----------------------------------------------------------: | :----------------------------------------------------------------: |
+| *SR-iMX6-HB2 - HummingBoard 2 / Gate - top (component side)* | *SR-iMX6-HB2 - HummingBoard 2 / Gate - bottom (print/solder side)* |
+| ![Board 2017-01-23 Top][iSRHB2EBRDC]                         | ![Board 2017-01-23 Bottom][iSRHB2EBRDP]                            |
+| *SR-iMX6-HB2 - HummingBoard 2 / Edge - top (component side)* | *SR-iMX6-HB2 - HummingBoard 2 / Edge - bottom (print/solder side)* |
+
+[iSRHB2GBRDC]: SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/hummingboard-gate-components-top.jpg
+[iSRHB2GBRDP]: SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/hummingboard-gate-components-bottom.jpg
+[iSRHB2EBRDC]: SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/hummingboard-edge-components-top.jpg
+[iSRHB2EBRDP]: SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/hummingboard-edge-components-bottom.jpg
+
+* https://www.solid-run.com/nxp-family/hummingboard
+* https://developer.solid-run.com/products/hummingboard-gate-edge
+* https://developer.solid-run.com/article-categories/hummingboard-gate-edge
+* http://forum.solid-run.com/hummingboard-hardware-lab-f18
+
+##### Console
+
+| ![r12]&#x2757;<span class='note'>TTL 3.3V</span>&#x2757;![r12] |
+| :------------------------------------------------------------: |
+| &#x2B95; `console=ttymxc0,115200n8`                            |
+| ![Console 2015-07-14][iSRHB2CONS]                              |
+
+[iSRHB2CONS]: SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/Pasted-into-HummingBoard-GateEdge-UART-console-1.png#w=300
+
+* https://developer.solid-run.com/knowledge-base/hummingboard-gate-edge-uart-console
+* https://developer.solid-run.com/knowledge-base/serial-console-usb-uart
+
+##### Expansion Ports
+
+| ![HB2 Expansion Ports Top][iSRHB2EXPPDT]      | ![HB2 Expansion Ports Bottom][iSRHB2EXPPDB]   |
+| :-------------------------------------------: | :-------------------------------------------: |
+| [*Drawing Top*][dSRHB2EXPPDT]                 | [*Drawing Bottom*][dSRHB2EXPPDB]              |
+| ![J2x][iSRHB2EXPJ2X]
+| ![J2D][iSRHB2EXPJ2D]
+
+[iSRHB2EXPPDT]: SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/hummingboard%202-v1.4-Assy/HummingBoard2%20Rev%201.4%20Assembly%20Drawing%20CS.svg
+[dSRHB2EXPPDT]: SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/hummingboard%202-v1.4-Assy/HummingBoard2%20Rev%201.4%20Assembly%20Drawing%20CS.pdf
+[iSRHB2EXPPDB]: SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/hummingboard%202-v1.4-Assy/HummingBoard2%20Rev%201.4%20Assembly%20Drawing%20PS.svg
+[dSRHB2EXPPDB]: SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/hummingboard%202-v1.4-Assy/HummingBoard2%20Rev%201.4%20Assembly%20Drawing%20PS.pdf
+[iSRHB2EXPJ2X]: SolidRun/SR-iMX6-HB2-HummingBoard2/DOC/hb2-gpios.png#w=300
+[iSRHB2EXPJ2D]: SolidRun/SR-iMX6-HB2-HummingBoard2/DOC/hb2-gpio.png
 
 ---
 
