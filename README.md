@@ -7,6 +7,7 @@
   - [CubieBoard 2](#cubieboard-2)
   - [CubieBoard 3 - CubieTruck](#cubieboard-3---cubietruck)
 - [SolidRun](#solidrun)
+  - [SR-uSOM-MX6](#sr-usom-mx6)
 
 ---
 
@@ -379,6 +380,137 @@ https://askubuntu.com/a/1136178
   * https://github.com/Freescale/linux-fslc/tree/5.3.x+fslc
 * https://www.armbian.com/download/?tx_maker=solidrun
 * https://xbian.org/getxbian
+
+### SR-uSOM-MX6
+
+**µSOM based on NXP i.MX6**
+
+| System on Module                    | uSOM i1                   | uSOM i2                   | uSOM i2eX                 | uSOM i4Pro                |
+| ----------------------------------: | :-----------------------: | :-----------------------: | :-----------------------: | :-----------------------: |
+| System on Chip ARM Cortex-A9 @ 1GHz | i.MX6 Solo                | i.MX6 Dual Lite           | i.MX6 Dual                | i.MX6 Quad                |
+| Random Access Memory (DDR3-SDRAM)   | 32 bit, 512MB @ 800Mbps   | 64 bit, 1GB @ 800Mbps     | 64 bit, 1GB @ 1066Mbps    | 64 bit, 2GB @ 1066Mbps    |
+| Serial AT Attachment (SATA)         |                           |                           | SATA 3 Gbit/s             | SATA 3 Gbit/s             |
+| **V1.2**                            | ![iSRSOM6S12]             | ![iSRSOM6DL12]            | ![iSRSOM6D12]             | ![iSRSOM6Q12]             |
+| **V1.5**                            |                           |                           |                           | ![iw=150][iSRSOM6Q15]     |
+
+[iSRSOM6S12]:  SolidRun/SR-uSOM-MX6/IMG/imx-microsom-single.jpg#w=150
+[iSRSOM6DL12]: SolidRun/SR-uSOM-MX6/IMG/imx-microsom-dual_lite.jpg#w=150
+[iSRSOM6D12]:  SolidRun/SR-uSOM-MX6/IMG/imx-microsom-dual.jpg#w=150
+[iSRSOM6Q12]:  SolidRun/SR-uSOM-MX6/IMG/imx-microsom-quad.jpg#w=150
+[iSRSOM6Q15]:  SolidRun/SR-uSOM-MX6/IMG/sr-imx6-som-user_manual-rev1.3-001.jpg
+
+#### Construction
+
+| Release    | Schematic<span class='note'>\*</span>         | Layout (PCB)                                  | 2D Drawing                                    | 3D Model                                      | Status     |
+| :--------: | :-------------------------------------------: | :-------------------------------------------: | :-------------------------------------------: | :-------------------------------------------: | :--------: |
+| V1.1       |                                               |                                               |                                               |                                               | **EOL**    |
+| V1.2       |                                               |                                               |                                               |                                               | **EOL**    |
+| V1.3       | [PDF][dSRSOM6V13PSC]                          | 2015-04-30                                    | [PDF][dSRSOM6V13P2D]                          | [STP][dSRSOM6V13STP] ([PDF][dSRSOM6V13P3D])   | **EOL**    |
+| V1.4       |                                               |                                               |                                               |                                               | **EOL**    |
+| V1.5       | [PDF][dSRSOM6V15PSC]                          | 2016-10-26                                    | [PDF][dSRSOM6V15P2D]                          | [STP][dSRSOM6V15STP] ([PDF][dSRSOM6V15P3D])   |            |
+
+<span class='note'>\* NOTE:</span> **All schematics are simplified and coming
+without DDR3-SDRAM and core voltage regulator!**
+
+[dSRSOM6V13PSC]:
+   SolidRun/SR-uSOM-MX6/CAD/sr-usom-mx6-rev-1_3-simplified-schematics.pdf
+   "2014-06-23 (SR-uSOM-MX6, Rev: V1.3)"
+[dSRSOM6V13P2D]:
+   SolidRun/SR-uSOM-MX6/CAD/mSOM-1.3%20ASSY_1.pdf
+   "2015-04-30 (mSOM-1.3 ASSY)"
+[dSRSOM6V13STP]:
+   SolidRun/SR-uSOM-MX6/CAD/mSOM-1.3%20ASSY.stp
+   "2015-04-30 (mSOM-1.3 ASSY)"
+[dSRSOM6V13P3D]:
+   SolidRun/SR-uSOM-MX6/CAD/mSOM-1.3%20ASSY.pdf
+   "2015-04-30 (mSOM-1.3 ASSY)"
+[dSRSOM6V15PSC]:
+   SolidRun/SR-uSOM-MX6/CAD/sr-usom-mx6-rev-1_5-simplified-schematics.pdf
+   "2016-08-29 (SR-uSOM-MX6, Rev: V1.5)"
+[dSRSOM6V15P2D]:
+   SolidRun/SR-uSOM-MX6/CAD/sr-usom-mx6-assy-rev1.5.pdf
+   "2017-03-13 (IMS6-SOM Ver.1.5)"
+[dSRSOM6V15STP]:
+   SolidRun/SR-uSOM-MX6/CAD/IMS6-SOM_Rev.1.5.stp
+   "2016-10-26 (IMS6-SOM_Rev.1.4)"
+[dSRSOM6V15P3D]:
+   SolidRun/SR-uSOM-MX6/CAD/IMS6-SOM_Rev.1.5_3D.pdf
+   "2016-10-26 (IMS6-SOM_Rev.1.4)"
+
+#### Components
+
+**Parts of the V1.3(2) schematic seems to were borrowed from the
+WandBoard SOM reference design [WBQUAD REV B1 (20130620)]. That are:**
+
+1. WiFi + BT SiP [*USI*](USI/00-comefrom-urls) **WM-BN-BM-02**
+   -- **EOL (long long time ago)**
+   * Today it is impossible to find the right documentation for this component.
+   * Further this component was already replaced in latest WandBoard SOM
+     reference design [WB-EDM-iMX6 REV C1 (20140317)] with the WiFi + BT SiP
+     [**WM-BN-BM-04**](USI), based on [**BCM4330**](Broadcom/CYW4330).
+
+[WBQUAD REV B1 (20130620)]:
+   ftp://download.technexion.net/development_resources/wandboard/wbquad-revb1-userguide.pdf
+   "TechNexion: WBQUAD REV B1 (20130620)"
+[WB-EDM-iMX6 REV C1 (20140317)]:
+   ftp://download.technexion.net/development_resources/wandboard/wb-edm-imx6-rev-c1.pdf
+   "TechNexion: WB-EDM-iMX6 REV C1 (20140317)"
+
+##### Electronic Parts
+
+| Component                                          | Manufactor                                    | Name                                     | V1.3 **(EOL)**  | V1.5            | Package         | Refs            |
+| :------------------------------------------------- | :-------------------------------------------- | :--------------------------------------- | :-------------: | :-------------: | :-------------- | :-------------: |
+| Central Procesing Unit (CPU), ARM Cortex-A9 @ 1GHz | [*NXP*](NXP/00-comefrom-urls)                 | [**MCIMX6(S,U,D,Q)XX**](NXP/i.MX6)       | `U1`            | `U1`            | FBGA624-0.8mm   |                 |
+| Random Access Memory (DDR3-SDRAM), 512MB           | [*Samsung*](Samsung/00-comefrom-urls)         | [**K4B2G1646E**](Samsung/K4B2G1646E)     | `U4001 - U4002` | `U4001 - U4002` | FBGA96-0.8mm    | only uSOM i1    |
+| Random Access Memory (DDR3-SDRAM), 1GB             | [*Samsung*](Samsung/00-comefrom-urls)         | [**K4B2G1646E**](Samsung/K4B2G1646E)     | `U4001 - U4004` | `U4001 - U4004` | FBGA96-0.8mm    | only uSOM i2    |
+| Random Access Memory (DDR3-SDRAM), 1GB             | [*Samsung*](Samsung/00-comefrom-urls)         | [**K4B2G1646Q**](Samsung/K4B2G1646Q)     | `U4001 - U4004` | `U4001 - U4004` | FBGA96-0.8mm    | only uSOM i2eX  |
+| Random Access Memory (DDR3-SDRAM), 2GB             | [*Samsung*](Samsung/00-comefrom-urls)         | [**K4B4G1646B**](Samsung/K4B4G1646B)     | `U4001 - U4004` | `U4001 - U4004` | FBGA96-0.8mm    | only uSOM i4Pro |
+| embedded Multi Media Card (eMMC) NAND Flash, 8GB   | [*Samsung*](Samsung/00-comefrom-urls)         | [**KLM8G1GETF-B041**](Samsung/KLM8G1GETF-B041) |           | `U10003`        | FBGA153-0.5mm   |                 |
+| embedded Multi Media Card (eMMC) NAND Flash, 4GB   |                                               | [**KLM4G1FEPD-B031**](Samsung/KLM4G1FEPD-B031) |           |                 |                 |                 |
+| IIC/I2C EEPROM (typically not populated), 128Byte  | [*ONSemi*](ONSemi/00-comefrom-urls)           | [**CAT24AA01**](ONSemi)                  | `U9002`         |                 | TSOT23-5-0.95mm | *I2C3* @ `0x50` |
+| SPI Serial NOR Flash, 128MB @ 100/50MHz            | [*Micron*](Micron/00-comefrom-urls)           | [**N25Q00AA**](Micron/N25Q00AAX3)        |                 | `U17`           | LBGA24-1.0mm    | *SPI3* @ `CS0`  |
+| Step Down DC-DC Regulator, *unsure: 1.35V (DDR3)*  | [*Richtek*](Richtek/00-comefrom-urls)         | [**RT8070ZQW**](Richtek)                 | `U10000`        | `U10000`        | WDFN-8L-0.65mm  | [SRF2]          |
+| Step Down DC-DC Regulator, *unsure: 1.325V (CPU)*  | [*Richtek*](Richtek/00-comefrom-urls)         | [**RT8073GQW**](Richtek)                 | `U10001`        | `U10001`        | WDFN-12L-0.45mm | [SRF1], [SRF2]  |
+| LDO Voltage Regulator, 2.8V (WiFi SDIO max. 2.98V) | [*Diodes*](Diodes/00-comefrom-urls)           | [**AP7333-28SRG**](Diodes)               | `U2001`         |                 | SOT23R-0.95mm   | only on BCM4330 |
+| LDO Voltage Regulator, 2.5V (WiFi SDIO max. 2.98V) | [*TWS*](TWS/00-comefrom-urls)                 | [**TS9011KCX**](TWS)                     |                 |                 | SOT23-0.95mm    |                 |
+| LDO Voltage Regulator, 1.8V (WiFi SDIO max. 2.1V)  | [*TWS*](TWS/00-comefrom-urls)                 | [**TS9011DCX**](TWS)                     |                 | `U2001`         | SOT23-0.95mm    | only on WL18xx  |
+| Level Shifter 1.8/3.3V (BT UART Rx/Tx)             | [*NXP*](NXP/00-comefrom-urls)                 | [**NTB0102GD**](NXP/NTB0102)             |                 | `U31`           | SOT996-2-0.5mm  | only on WL18xx  |
+| 10/100/1000M Ethernet (GbE) PHY Receiver (EMAC)    | [*Atheros*](Atheros/00-comefrom-urls)         | [**AR8035-AL1A**](Atheros/AR8035)        | `U7000`         | `U7000`         | QFN40-0.4mm     |                 |
+| WiFi 1T1R 802.11bgn + BT2.1 (SDIO v1.2, UART/PCM)  | [*USI*](USI/00-comefrom-urls)                 |  **WM-BN-BM-02** SiP                     | `U10002`        |                 | QFM63-0.55mm    | **not `U6002`** |
+|                                                    | [*Broadcom*](Broadcom/00-comefrom-urls)       | [**BCM4329**](Broadcom/CYW4329) WL+BT+FM |                 |                 |                 |                 |
+| WiFi 1T1R 802.11bgn + BT4.0 (SDIO v2.0, UART/PCM)  |  *AzureWave*                                  |  **AW-NH660** SiP                        | `U6002`         |                 | LGA81-X.Xmm     | **not `U10002`**|
+|                                                    | [*Broadcom*](Broadcom/00-comefrom-urls)       | [**BCM4330**](Broadcom/CYW4330) WL+BT+FM |                 |                 |                 |                 |
+| WiFi xTxR 802.11bgn + BT4.1 (SDIO v3.0, UART/PCM)  | [*TI*](TI/00-comefrom-urls)                   |  **WiLink8** SiP                         |                 | `U10002`        | QFM100-0.7mm    |                 |
+|                                                    |                                               | [**WL1837MOD**](TI/WiLink8)              |                 |                 |                 | MIMO WiFi+BTLE  |
+|                                                    |                                               | [**WL1831MOD**](TI/WiLink8)              |                 |                 |                 | SISO WiFi+BTLE  |
+| nMOSFET 2.0-V (G-S) Dual Channel 3.3/5V (HDMI DDC) | [*Diodes*](Diodes/00-comefrom-urls)           | [**DMN65D8LDW-7**](Diodes)               | `U3000`         | `U3000`         | SOT363-0.65mm   |                 |
+| CMOS Logic AND, Level Shifter 3.3/5V (HDMI HPD)    | [*ONSemi*](ONSemi/00-comefrom-urls)           | [**M74VHC1GT08DFT1G**](ONSemi)           | `U3003`         | `U3003`         | SOT353-0.65mm   |                 |
+
+<!--
+| WiFi 1T1R 802.11bgn + BT4.0 (SDIO v2.0, UART/PCM)  | [*USI*](USI/00-comefrom-urls)                 | [**WM-BN-BM-04**](USI) SiP               |                 |                 | QFM63-0.55mm    | Wrong package ? |
+|                                                    | [*Broadcom*](Broadcom/00-comefrom-urls)       | [**BCM4330**](Broadcom/CYW4330) WL+BT+FM |                 |                 |                 |                 |
+-->
+
+[SRF1]: http://forum.solid-run.com/viewtopic.php?f=18&t=3690#p23536
+[SRF2]: http://forum.solid-run.com/viewtopic.php?f=16&t=3704#p23563
+
+#### Assembly
+
+| ![Board 2017-03-12 Top][iSRSOM6BRDC]      | ![Board 2017-03-12 Bottom][iSRSOM6BRDP]      |
+| :---------------------------------------: | :------------------------------------------: |
+| *SR-uSOM-MX6 - top (component side)*      | *SR-uSOM-MX6 - bottom (print/solder side)*   |
+| ![Board 2017-03-12 Block][iSRSOM6BRDB]    | ![Board 2017-03-12 Heatsink][iSRSOM6BRDH]    |
+| *SR-uSOM-MX6 - i1 / i2 / i2eX / i4Pro*    | *SR-uSOM-MX6 - heatsink*                     |
+
+[iSRSOM6BRDC]: SolidRun/SR-uSOM-MX6/IMG/SOM-iMX6-top-hotspots.png
+[iSRSOM6BRDP]: SolidRun/SR-uSOM-MX6/IMG/SOM-iMX6-back-hotspots.png
+[iSRSOM6BRDB]: SolidRun/SR-uSOM-MX6/DOC/Rev-1.5-Block-Digaram-1024x737.png
+[iSRSOM6BRDH]: SolidRun/SR-uSOM-MX6/IMG/SOM-iMX6-heatsink.jpg
+
+* https://www.solid-run.com/nxp-family/imx6-som
+* https://developer.solid-run.com/products/imx6-som
+* https://developer.solid-run.com/article-categories/i-mx6-som
+* http://forum.solid-run.com/i-mx6-based-microsom-sr-usom-mx6-f19
 
 ---
 
