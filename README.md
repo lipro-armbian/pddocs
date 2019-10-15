@@ -112,7 +112,11 @@ https://askubuntu.com/a/1136178
 
 #### Assembly
 
-![Board 2012-09-09](Cubietech/CubieBoard1/IMG/cubieboard1-8.jpg)
+| ![Board 2012-09-09][iCB1BOARD]     |
+| :--------------------------------: |
+| *CubieBoard 1*                     |
+
+[iCB1BOARD]: Cubietech/CubieBoard1/IMG/cubieboard1-8.jpg
 
 * http://www.cubietech.com/product-detail/cubieboard1
 * https://linux-sunxi.org/Cubietech_Cubieboard
