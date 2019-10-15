@@ -1,0 +1,41 @@
+; Version : LOCAL
+; Job     : \\Venus\job\SolidRun\hummingboard 2-v1.2\PCB\hummingboard 2-v1.2.pcb
+; User    : EARTH:Itzik
+; Date    : Thu Jun 25 13:49:20 2015
+; Format  : 3.3 / Absolute / MM / Leading
+; Contents: Thru / Punch / Plated
+M48
+METRIC,TZ
+FMAT,2
+ICI,OFF
+; T12 Slot 1.5000 x 0.9000 (MM) R 90
+; T11 Slot 2.5000 x 0.9000 (MM) R 90
+; T14 Slot 2.0000 x 1.0000 (MM) R 90
+; T07 Slot 4.0000 x 1.0000 (MM) R 0
+; T06 Slot 4.0000 x 1.0000 (MM) R 90
+; T08 Slot 4.5000 x 1.0000 (MM) R 0
+%
+M71
+G90
+G93X0Y0
+T12
+X24733Y2949
+X39233
+T11
+X24733Y8909
+X39233
+T14
+X67320Y62110
+X61820
+X51850
+X46350
+X63070Y67410
+X47600
+T06
+X95520Y9860
+T07
+X90820Y6860
+T08
+X90820Y12860
+T00
+M30

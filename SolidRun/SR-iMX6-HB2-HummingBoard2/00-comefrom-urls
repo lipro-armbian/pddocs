@@ -1,7 +1,105 @@
 https://www.solid-run.com
 --> https://www.solid-run.com/nxp-family/hummingboard
+    --> https://www.solid-run.com/wp-content/uploads/2018/08/hummingboard-gate-components-top.jpg
+    --> https://www.solid-run.com/wp-content/uploads/2018/08/hummingboard-gate-components-bottom.jpg
+    --> https://www.solid-run.com/wp-content/uploads/2018/08/hummingboard-edge-components-top.jpg
+    --> https://www.solid-run.com/wp-content/uploads/2018/08/hummingboard-edge-components-bottom.jpg
 https://wiki.solid-run.com
 --> https://wiki.solid-run.com/doku.php?id=products:imx6:hummingboard
+--> https://www.solid-run.com/wiki/doku.php?id=products:imx6:hummingboard
+    --> https://www.solid-run.com/wiki/doku.php?id=products:imx6:hummingboard:gate
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:hummingboard:hummingboard-gate-01.jpg
+            --> hummingboard-gate-01.jpg
+    --> https://www.solid-run.com/wiki/doku.php?id=products:imx6:hummingboard:edge
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:hummingboard:hummingboard-edge-01.jpg
+            --> hummingboard-edge-01.jpg
+    --> https://www.solid-run.com/wiki/doku.php?id=products:imx6:hummingboard:hardware:hb2gpio
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:hummingboard:hb2-gpios.png
+            --> hb2-gpios.png
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:hummingboard:hb2-gpio.png
+            --> hb2-gpio.png
+    --> https://www.solid-run.com/wiki/doku.php?id=products:imx6:hummingboard:canbus
+    --> https://www.solid-run.com/wiki/doku.php?id=products:imx6:hummingboard:owncarrierboard
+    --> https://www.solid-run.com/wiki/doku.php?id=products:imx6:resetbutton
+    --> https://www.solid-run.com/wiki/doku.php?id=products:imx6:rtc
+    --> https://www.solid-run.com/wiki/doku.php?id=products:imx6:software:development:mikrobus
+    --> https://www.solid-run.com/wiki/doku.php?id=products:imx6:hummingboard:documents
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:hummingboard:docs:sr-imx6-hummingboard-gate-datasheet.pdf
+            --> imx6-hummingboard-gate-datasheet.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:hummingboard:docs:sr-imx6-hummingboard-edge-datasheet.pdf
+            --> sr-imx6-hummingboard-edge-datasheet.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:other:hb2-poweradapter-eu.pdf
+            --> hb2-poweradapter-eu.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:other:hb2-poweradapter-us.pdf
+            --> hb2-poweradapter-us.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:hummingboard:docs:hb2:sr-imx6-hummingboard_gate-doc-20181031.pdf
+            --> sr-imx6-hummingboard_gate-doc-20181031.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:hummingboard:docs:hb2:sr-imx6-hummingboard_edge-doc-20181031.pdf
+            --> sr-imx6-hummingboard_edge-doc-20181031.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:hummingboard:docs:sr-imx6-hb_edge-bom-1.2.0.pdf
+            --> sr-imx6-hb_edge-bom-1.2.0.pdf
+        --> https://www.solid-run.com/wiki/lib/exe/fetch.php?media=imx6:hummingboard:docs:sr-imx6-hb_gate-bom-1.2.0.pdf
+            --> sr-imx6-hb_gate-bom-1.2.0.pdf
 https://developer.solid-run.com
 --> https://developer.solid-run.com/products/hummingboard-gate-edge
+    --> https://developer.solid-run.com/download/hummingboard-gate-edge-pcn-rev-1-4?wpdmdl=2069
+        --> sr-imx6-hb2-pcn-rev1.2-to-rev1.4.pdf
+    --> https://developer.solid-run.com/download/hummingboard-gate-edge-schematics?wpdmdl=2057
+        --> HummingBoard-GateEdgeCBi-Schematics.zip
+            --> hummingboard2_schematics_rev_1.2.dsn.zip
+                --> hummingboard2_schematics_rev_1.2.dsn
+            --> hummingboard2_schematics_rev_1.2.pdf
+            --> sr-imx6-hb2-schematics-rev1_4.pdf
+    --> https://developer.solid-run.com/download/hummingboard-gate-edge-pcb-layout?wpdmdl=2060
+        --> sr-imx6-hummingboard_2-v1.4-layout_pcb.zip
+    --> https://developer.solid-run.com/download/hummingboard-gate-edge-assembly-files?wpdmdl=2067
+        --> HummingBoard-GateEdge-Assembly-Files.zip
+            --> HummingBoard.2_rev.2.3.rar
+                --> HummingBoard.2_rev.2.3.stp
+            --> HummingBoard.2_rev.2.3.pdf
+            --> Hummingboard.2 WITH Connectors_rev.1_2D.pdf
+            --> Hummingboard.2 WITH Connectors_rev.1_3D.pdf
+            --> Hummingboard.2 WITH Connectors_rev.1.dxf
+    --> https://developer.solid-run.com/download/hummingboard-gate-edge-enclosure-files?wpdmdl=2071
+        --> HummingBoard-GateEdge-Enclosure-Files.zip
+            --> MCH00052 - HB.2_enclosure_base3_Rev.4.dxf
+            --> MCH00052 - HB.2_enclosure_base3_Rev.4.pdf
+            --> MCH00052 - HB.2_enclosure_base3_Rev.4.x_t
+            --> MCH00064 - HB.2_enclosure_cover3_Rev.5.dxf
+            --> MCH00064 - HB.2_enclosure_cover3_TOP_Rev.5.dxf
+            --> MCH00064 - HB.2_enclosure_cover3_rev.5.pdf
+            --> MCH00064 - HB.2_enclosure_cover3_rev.5.x_t
+    --> https://developer.solid-run.com/download/hummingboard-gate-edge-cbi-production-assembly?wpdmdl=3663
+        --> hummingboard 2-v1.4-Assy.zip
+            --> hummingboard 2-v1.4-Assy/HummingBoard2 Rev 1.4 Assembly Drawing CS.pdf
+            --> hummingboard 2-v1.4-Assy/HummingBoard2 Rev 1.4 Assembly Drawing PS.pdf
+            --> hummingboard 2-v1.4-Assy/SolderPasteBottom.gdo
+            --> hummingboard 2-v1.4-Assy/SolderPasteTop.gdo
+            --> hummingboard 2-v1.4-Assy/vb_ais.txt
+    --> https://developer.solid-run.com/download/hummingboard-gate-edge-gerbers?wpdmdl=2063
+        --> sr-imx6-hb2-gerber-rev1.2.zip
+            --> sr-imx6-hb2-gerber-rev1.2/*.gdo
+            --> sr-imx6-hb2-gerber-rev1.2/*.ncd
+            --> sr-imx6-hb2-gerber-rev1.2/ipc356.ipc
+    --> https://developer.solid-run.com/download/hummingboard-edge-bom?wpdmdl=2051
+    --> https://developer.solid-run.com/download/hummingboard-gate-bom?wpdmdl=2053
+        --> SRHBCEE000CV14 rev 1.4.2.xlsx
+    --> https://developer.solid-run.com/download/hummingboard-edge-block-diagram?wpdmdl=2086
+        --> hummingboard-edge-block-diagram-1024x528.png
+    --> https://developer.solid-run.com/download/hummingboard-gate-block-diagram?wpdmdl=2084
+        --> hummingboard-gate-block-diagram-1024x528.png
+    --> https://developer.solid-run.com/download/hummingboard-gate-edge-datasheet-2?wpdmdl=3595
+        --> HummingBoard-GateEdge-Datasheet.zip
+            --> 1567419814wpdm_HummingBoard Gate Datasheet.pdf
+            --> 1567419810wpdm_HummingBoard Edge Datasheet.pdf
+    --> https://developer.solid-run.com/download/hummingboard-gate-edge-onboard-rtc?wpdmdl=2065
+        --> rtc-datasheet-onboard.pdf
+    --> https://developer.solid-run.com/download/hummingboard-i-brochure?wpdmdl=2045
+        --> brochure_imx6_hummingboards_2017-09-05.pdf
+    --> https://developer.solid-run.com/download/mikrobus-specifications?wpdmdl=2055
+        --> mikrobus_specification-rev2.pdf
+--> https://developer.solid-run.com/knowledge-base/hummingboard-gate-edge-uart-console
+    --> https://developer.solid-run.com/wp-content/uploads/2019/04/Pasted-into-HummingBoard-GateEdge-UART-console-1.png
 --> https://developer.solid-run.com/article-categories/hummingboard-gate-edge
+http://forum.solid-run.com
+--> http://forum.solid-run.com/hummingboard-hardware-lab-f18

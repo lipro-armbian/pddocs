@@ -1,0 +1,41 @@
+; Version : LOCAL
+; Job     : D:\Work\Data\SolidRun\HB Rev 1.3 USB HUB Rework\3. Layout\Rev 1.4\PCB\hummingboard 2-v1.3.pcb
+; User    : A-PC:Alex
+; Date    : Mon Jan 23 20:37:43 2017
+; Format  : 3.3 / Absolute / MM / Leading
+; Contents: Thru / Punch / Plated
+M48
+METRIC,TZ
+FMAT,2
+ICI,OFF
+; T16 Slot 1.5000 x 0.9000 (MM) R 90
+; T15 Slot 2.5000 x 0.9000 (MM) R 90
+; T17 Slot 2.0000 x 1.0000 (MM) R 90
+; T04 Slot 4.0000 x 1.0000 (MM) R 0
+; T03 Slot 4.0000 x 1.0000 (MM) R 90
+; T05 Slot 4.5000 x 1.0000 (MM) R 0
+%
+M71
+G90
+G93X0Y0
+T16
+X24733Y2949
+X39233
+T15
+X24733Y8909
+X39233
+T17
+X67320Y62110
+X61820
+X51850
+X46350
+X63070Y67410
+X47600
+T03
+X95520Y9860
+T04
+X90820Y6860
+T05
+X90820Y12860
+T00
+M30
