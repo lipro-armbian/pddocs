@@ -222,7 +222,11 @@ https://askubuntu.com/a/1136178
 
 #### Assembly
 
-![Board 2012-09-09](Cubietech/CubieBoard2/IMG/cubieboard2-8.jpg)
+| ![Board 2012-09-09][iCB2BOARD]     |
+| :--------------------------------: |
+| *CubieBoard 2*                     |
+
+[iCB2BOARD]: Cubietech/CubieBoard2/IMG/cubieboard2-8.jpg
 
 * [How To Distinguish Your CubieBoard 2 Version](Cubietech/CubieBoard2/DOC/How%20To%20Distinguish%20Your%20CubieBoard2%20Version.pdf)
 * http://www.cubietech.com/product-detail/cubieboard2
