@@ -236,7 +236,12 @@ https://askubuntu.com/a/1136178
 
 ##### Console
 
-![Console 2012-09-09](Cubietech/USBUARTCable/IMG/Cubieboard.UART-TTL_wire_colors.jpg)
+| ![r12]&#x2757;<span class='note'>TTL 3.3V</span>&#x2757;![r12] |
+| :------------------------------------------------------------: |
+| &#x2B95; `console=ttyS0,115200n8`                              |
+| ![Console 2012-09-09][iCB2CONS]                                |
+
+[iCB2CONS]: Cubietech/USBUARTCable/IMG/Cubieboard.UART-TTL_wire_colors.jpg#w=300
 
 * https://linux-sunxi.org/Cubietech_Cubieboard2#Adding_a_serial_port
 * http://linux-sunxi.org/Cubieboard/TTL
