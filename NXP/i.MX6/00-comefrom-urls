@@ -1,2 +1,19 @@
 https://www.nxp.com
 --> https://www.nxp.com/products/processors-and-microcontrollers:IMX6X_SERIES
+    --> https://www.nxp.com/docs/en/supporting-information/FLYRIMXPRDCMPR.pdf
+        --> i.MX6 and i.MX7 Comparison Table - r25 (2019-02-07).pdf
+    --> https://www.nxp.com/docs/en/fact-sheet/IMX6SRSFS.pdf
+        --> i.MX6 Facts - r16 (2018-06-19).pdf
+    --> https://www.nxp.com/webapp/Download?colCode=IMX6DQ6SDLHDG
+        --> IMX6DQ6SDLHDG.pdf
+            --> i.MX6DQ6SDL Hardware Development Guide - r4 (2019-02-20).pdf
+    --> https://www.nxp.com/webapp/Download?colCode=L4.1.15_2.0.0-LINUX-DOCS
+        --> fsl_yocto-L4.1.15_2.0.0-ga.tar.gz
+            --> fsl-yocto-L4.1.15_2.0.0-ga-20170218
+                --> (IMXLXRN, Rev. L4.1.15_2.0.0-ga, 10/2016) doc/i.MX_Linux_Release_Notes.pdf
+                --> (IMXLUG,  Rev. L4.1.15_2.0.0-ga, 10/2016) doc/i.MX_Linux_User's_Guide.pdf
+                --> (IMXLXRM,      Rev. 1, 01/2017) doc/i.MX_Linux_Reference_Manual.pdf
+                --> (IMXBSPPG,     Rev. 1, 01/2017) doc/i.MX_BSP_Porting_Guide.pdf
+                --> (IMXGRAPHICUG, Rev. 0, 10/2016) doc/i.MX_Graphics_User's_Guide.pdf
+                --> (IMXVPUAPI,    Rev. 0, 10/2016) doc/i.MX_VPU_Application_Programming_Interface_Linux_Reference_Manual.pdf
+                --> (IMXLXYOCTOUG, Rev. 0, 10/2016) i.MX_Yocto_Project_User's_Guide.pdf
