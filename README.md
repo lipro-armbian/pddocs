@@ -306,3 +306,59 @@ cat README.md \
     | sed 's/^##/  /' \
     | sed 's/^#//'
 -->
+
+<!--
+[iSRSOM6S]:  https://demo.cloudimg.io/width/150/n/https://www.solid-run.com/wiki/lib/exe/fetch.php?cache=&media=imx6:microsom:imx-microsom-single.jpg
+[iSRSOM6DL]: https://demo.cloudimg.io/width/150/n/https://www.solid-run.com/wiki/lib/exe/fetch.php?cache=&media=imx6:microsom:imx-microsom-dual_lite.jpg
+[iSRSOM6D]:  https://demo.cloudimg.io/width/150/n/https://www.solid-run.com/wiki/lib/exe/fetch.php?cache=&media=imx6:microsom:imx-microsom-dual.jpg
+[iSRSOM6Q]:  https://demo.cloudimg.io/width/150/n/https://www.solid-run.com/wiki/lib/exe/fetch.php?cache=&media=imx6:microsom:imx-microsom-quad.jpg
+-->
+
+<!--
+using a placeholder image service, for example:
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
+- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
+- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
+-->
+
+<!--
+in case this may be helpful for someone who just needs to show colors
+rather than output, as a hackish workaround (and FYI), since Github
+supports Unicode numeric character references (and HTML entities),
+you could try colored Unicode symbols, though it depends on the font
+rendering them in color (as it happens to be appearing for me on
+Windows 10 and Mac 10.12.5, at least, though on the Mac at least,
+the up/down-pointing small red triangles don't show in red):
+- RED APPLE (`&#x1F34E;`): 🍎
+- GREEN APPLE (`&#x1F34F;`): 🍏
+- BLUE HEART (`&#x1F499;`): 💙
+- GREEN HEART (`&#x1F49A;`): 💚
+- YELLOW HEART (`&#x1F49B;`): 💛
+- PURPLE HEART (`&#x1F49C;`): 💜
+- GREEN BOOK (`&#x1F4D7;`): 📗
+- BLUE BOOK (`&#x1F4D8;`): 📘
+- ORANGE BOOK (`&#x1F4D9;`): 📙
+- LARGE RED CIRCLE (`&#x1F534;`): 🔴
+- LARGE BLUE CIRCLE (`&#x1F535;`): 🔵
+- LARGE ORANGE DIAMOND (`&#x1F536;`): 🔶
+- LARGE BLUE DIAMOND (`&#x1F537;`): 🔷
+- SMALL ORANGE DIAMOND (`&#x1F538;`): 🔸
+- SMALL BLUE DIAMOND (`&#x1F539;`): 🔹
+- UP-POINTING RED TRIANGLE (`&#x1F53A;`): 🔺
+- DOWN-POINTING RED TRIANGLE (`&#x1F53B;`): 🔻
+- UP-POINTING SMALL RED TRIANGLE (`&#x1F53C;`): 🔼
+- DOWN-POINTING SMALL RED TRIANGLE (`&#x1F53D;`): 🔽
+
+https://www.fileformat.info/info/unicode/block/arrows/utf8test.htm
+https://www.fileformat.info/info/unicode/block/miscellaneous_technical/utf8test.htm
+https://www.fileformat.info/info/unicode/block/miscellaneous_symbols/utf8test.htm
+https://www.fileformat.info/info/unicode/block/dingbats/utf8test.htm
+https://www.fileformat.info/info/unicode/block/supplemental_arrows_a/utf8test.htm
+https://www.fileformat.info/info/unicode/block/supplemental_arrows_b/utf8test.htm
+https://www.fileformat.info/info/unicode/block/miscellaneous_symbols_and_arrows/utf8test.htm
+https://www.fileformat.info/info/unicode/block/enclosed_alphanumeric_supplement/utf8test.htm
+https://www.fileformat.info/info/unicode/block/miscellaneous_symbols_and_pictographs/utf8test.htm
+https://www.fileformat.info/info/unicode/block/emoticons/utf8test.htm
+https://www.fileformat.info/info/unicode/block/transport_and_map_symbols/utf8test.htm
+https://www.fileformat.info/info/unicode/block/supplemental_symbols_and_pictographs/utf8test.htm
+-->
