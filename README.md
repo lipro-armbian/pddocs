@@ -326,7 +326,11 @@ https://askubuntu.com/a/1136178
 
 #### Assembly
 
-![Board V1.0-0606](Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-9.jpg)
+| ![Board V1.0-0606][iCB3BOARD]      |
+| :--------------------------------: |
+| *CubieBoard 3 - CubieTruck*        |
+
+[iCB3BOARD]: Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-9.jpg
 
 * [How to use CubieTruck TSD Version](Cubietech/CubieBoard3-CubieTruck/DOC/How%20to%20use%20CubieTruck%20TSD%20Version.pdf)
 * http://www.cubietech.com/product-detail/cubieboard3
