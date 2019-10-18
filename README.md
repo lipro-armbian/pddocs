@@ -352,9 +352,12 @@ https://askubuntu.com/a/1136178
 
 ##### Expansion Ports
 
-| ![CubieBoard 3 - CubieTruck Expansion Ports Drawing](Cubietech/CubieBoard3-CubieTruck/CAD/a20_cubietruck_expansion_ports.png) |
-| :---------------------------------------------------------------------------------------------------------------------------: |
-| [*Drawing*](Cubietech/CubieBoard3-CubieTruck/CAD/a20_cubietruck_expansion_ports.pdf)                                          |
+| ![CB3-CT Expansion Ports Drawing][iCB3EXPPD]  |
+| :-------------------------------------------: |
+| [*Drawing*][dCB3EXPPD]                        |
+
+[iCB3EXPPD]: Cubietech/CubieBoard3-CubieTruck/CAD/a20_cubietruck_expansion_ports.png
+[dCB3EXPPD]: Cubietech/CubieBoard3-CubieTruck/CAD/a20_cubietruck_expansion_ports.pdf
 
 #### Armbian
 
