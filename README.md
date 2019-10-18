@@ -268,10 +268,23 @@ https://askubuntu.com/a/1136178
 
 #### Construction
 
-| Release    | Schematic                                                                             | Layout (PCB)    | 2D Drawing | 3D Model   | Status     |
-| :--------: | :-----------------------------------------------------------------------------------: | :-------------: | :--------: | :--------: | :--------: |
-| V1         | [2013-06-06](Cubietech/CubieBoard3-CubieTruck/CAD/A20_Cubietruck_HW_V10_130606.pdf)   | V1.0-0606       |            |            | **EOL**    |
-| V2         | [2018-04-24](Cubietech/CubieBoard3-CubieTruck/CAD/A20_CT_V20-20180424.pdf)            | V2.0-20180303   |            |            |            |
+| Release    | Schematic                           | Layout (PCB)                        | 2D Drawing                          | 3D Model                            | Status     |
+| :--------: | :---------------------------------: | :---------------------------------: | :---------------------------------: | :---------------------------------: | :--------: |
+| V1         | [PDF][dCB3V1PSC]                    | V1.0-0606                           | [DWG][dCB3V1DWG] ([PDF][dCB3V1P2D]) |                                     | **EOL**    |
+| V2         | [PDF][dCB3V2PSC]                    | V2.0-20180303                       |                                     |                                     |            |
+
+[dCB3V1PSC]:
+   Cubietech/CubieBoard3-CubieTruck/CAD/A20_Cubietruck_HW_V10_130606.pdf
+   "2013-06-06 (A20-Cubietruck-V1.0-130606, Rev: V1.0)"
+[dCB3V1DWG]:
+   Cubietech/CubieBoard3-CubieTruck/CAD/Mechanical_Design_CT_V10-130606.dwg
+   "2013-06-06"
+[dCB3V1P2D]:
+   Cubietech/CubieBoard3-CubieTruck/CAD/Mechanical_Design_CT_V10-130606.pdf
+   "2013-06-06"
+[dCB3V2PSC]:
+   Cubietech/CubieBoard3-CubieTruck/CAD/A20_CT_V20-20180424.pdf
+   "2018-04-24 (Cubieboard3-A20-20180303, Rev: V1.0)"
 
 #### Components
 
