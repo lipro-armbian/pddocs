@@ -158,10 +158,29 @@ https://askubuntu.com/a/1136178
 
 #### Construction
 
-| Release    | Schematic                                                                             | Layout (PCB)    | 2D Drawing | 3D Model   | Status     |
-| :--------: | :-----------------------------------------------------------------------------------: | :-------------: | :--------: | :--------: | :--------: |
-| V1         | [2012-08-08](Cubietech/CubieBoard2/CAD/cubieboard_schematic_2012-08-08.pdf)           | 2012-09-09      |            |            | **EOL**    |
-| V2         | [2015-11-24](Cubietech/CubieBoard2/CAD/cb2_a20_20151211.pdf)                          | 2015-12-11      |            |            |            |
+| Release    | Schematic                           | Layout (PCB)                        | 2D Drawing                          | 3D Model                            | Status     |
+| :--------: | :---------------------------------: | :---------------------------------: | :---------------------------------: | :---------------------------------: | :--------: |
+| V1         | [PDF][dCB2V1PSC]                    | 2012-09-09                          | [DXF][dCB2V1DXF] ([PDF][dCB2V1P2D]) |                                     | **EOL**    |
+| V2         | [PDF][dCB2V2PSC]                    | 2015-12-11                          |                                     | [STP][dCB2V2STP] ([PDF][dCB2V2P3D]) |            |
+
+[dCB2V1PSC]:
+   Cubietech/CubieBoard1/CAD/cubieboard_schematic_2012-08-08.pdf
+   "2012-08-08 (A10-cubieboard-2012-08-08, Rev: V1.0)"
+[dCB2V1DXF]:
+   Cubietech/CubieBoard1/CAD/Cubieboard1&2%20Mechanical_120909.dxf
+   "2012-09-09"
+[dCB2V1P2D]:
+   Cubietech/CubieBoard1/CAD/Cubieboard1&2%20Mechanical_120909.pdf
+   "2012-09-09"
+[dCB2V2PSC]:
+   Cubietech/CubieBoard2/CAD/cb2_a20_20151211.pdf
+   "2015-11-24 (A20-cubieboard-2015-11-24, Rev: V1.0)"
+[dCB2V2STP]:
+   Cubietech/CubieBoard2/CAD/CubieBoard2-20151211-EMMC/CubieBoard2-20151211-3D%20model.stp
+   "2016-07-28"
+[dCB2V2P3D]:
+   Cubietech/CubieBoard2/CAD/CubieBoard2-20151211-EMMC/CubieBoard2-3D-Lateral2.pdf
+   "2016-07-28"
 
 #### Components
 
