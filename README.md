@@ -87,21 +87,21 @@ https://askubuntu.com/a/1136178
 
 ##### Electronic Parts
 
-| Component                                          | Manufactor                                    | Name                                     | V1                     | Package         | Refs            |
-| :------------------------------------------------- | :-------------------------------------------- | :--------------------------------------- | :--------------------: | :-------------- | :-------------: |
-| Central Procesing Unit (CPU), ARM Cortex-A8 @ 1GHz | [*Allwinner*](Allwinner/00-comefrom-urls)     | [**A10**](Allwinner/A10)                 | `U1`                   | FBGA441-0.8mm   | [IMG][iCB1CPU]  |
-| Random Access Memory (DDR3-SDRAM), 512MB @ 480MHz  | [*GT*](GT/00-comefrom-urls)                   | [**GT8UB128M16BP**](GT/GT8UB128M16BP)    | `U2`, `U3`             | FBGA96-0.8mm    |                 |
-| Random Access Memory (DDR3-SDRAM), 1GB @ 480MHz    |                                               | [**GT8UB256M16BP**](GT/GT8UB256M16BP)    |                        |                 | [IMG][iCB1DDR3] |
-| NAND Technology Flash (NAND-Flash), 4GB            | [*Samsung*](Samsung/00-comefrom-urls)         | [**K9K8G08U0A**](Samsung/K9K8G08U0A)     | `U4`                   | TSOP48-0.5mm    |                 |
-|                                                    |                                               | [**K9GBG08U0A**](Samsung/K9GBG08U0A)     |                        |                 | [IMG][iCB1NAND] |
-| Power Management IC (PMIC), Li-Battery Charger     | [*X-Powers*](X-Powers/00-comefrom-urls)       | [**AXP209**](X-Powers/AXP209)            | `U6`                   | QFN48-0.4mm     | [IMG][iCB1PMIC] |
-| Step Down Regulator, 1.5V (DDR3), 3.3V (I/O)       |                                               |  **TCS4199**                             | `U5`, `U7`             | SOT23-5         |                 |
-| LDO Voltage Regulator, 2.5V (SATA)                 | [*TCS*](TCS/00-comefrom-urls)                 | [**TCS2108-25**](TCS)                    | `U8`                   | SOT25-0.95mm    |                 |
-|                                                    | [*Chipown*](Chipown/00-comefrom-urls)         | [**AP1231**](Chipown)                    |                        |                 |                 |
-| pMOSFET 2.5-V (G-S) 1A, 5V (SATA), 3.3V (EMAC)     | [*TCS*](TCS/00-comefrom-urls)                 | [**TCS1305**](TCS)                       | `Q1`, `Q6`             | SOT23-0.95mm    | [IMG][iCB1SATA] |
-| Low RDS(ON) Load Switch, VBUS USB Host, USB OTG    | [*TCS*](TCS/00-comefrom-urls)                 | [**TCS9708**](TCS)                       | `U10`, `U11`, `U12`    | SOT23-5-0.95mm  |                 |
-| 10/100M Fast Ethernet PHY Receiver (EMAC)          | [*Realtek*](Realtek/00-comefrom-urls)         | [**RTL8201CP**](Realtek/RTL8201CP)       | `U13`                  | LQFP48-0.5mm    | [IMG][iCB1EMAC] |
-| IR Receiver                                        | [*Vishay*](Vishay/00-comefrom-urls)           | [**HS0038B-NEC**](Vishay)                | `U9`                   |                 |                 |
+| Component                                          | Manufactor                                    | Name                                     | V1              | Package         | Refs            |
+| :------------------------------------------------- | :-------------------------------------------- | :--------------------------------------- | :-------------: | :-------------- | :-------------: |
+| Central Procesing Unit (CPU), ARM Cortex-A8 @ 1GHz | [*Allwinner*](Allwinner/00-comefrom-urls)     | [**A10**](Allwinner/A10)                 | `U1`            | FBGA441-0.8mm   | [IMG][iCB1CPU]  |
+| Random Access Memory (DDR3-SDRAM), 512MB @ 480MHz  | [*GT*](GT/00-comefrom-urls)                   | [**GT8UB128M16BP**](GT/GT8UB128M16BP)    | `U2`, `U3`      | FBGA96-0.8mm    |                 |
+| Random Access Memory (DDR3-SDRAM), 1GB @ 480MHz    |                                               | [**GT8UB256M16BP**](GT/GT8UB256M16BP)    |                 |                 | [IMG][iCB1DDR3] |
+| NAND Technology Flash (NAND-Flash), 4GB            | [*Samsung*](Samsung/00-comefrom-urls)         | [**K9K8G08U0A**](Samsung/K9K8G08U0A)     | `U4`            | TSOP48-0.5mm    |                 |
+|                                                    |                                               | [**K9GBG08U0A**](Samsung/K9GBG08U0A)     |                 |                 | [IMG][iCB1NAND] |
+| Power Management IC (PMIC), Li-Battery Charger     | [*X-Powers*](X-Powers/00-comefrom-urls)       | [**AXP209**](X-Powers/AXP209)            | `U6`            | QFN48-0.4mm     | [IMG][iCB1PMIC] |
+| Step Down Regulator, 1.5V (DDR3), 3.3V (I/O)       |                                               |  **TCS4199**                             | `U5`, `U7`      | SOT23-5         |                 |
+| LDO Voltage Regulator, 2.5V (SATA)                 | [*TCS*](TCS/00-comefrom-urls)                 | [**TCS2108-25**](TCS)                    | `U8`            | SOT25-0.95mm    |                 |
+|                                                    | [*Chipown*](Chipown/00-comefrom-urls)         | [**AP1231**](Chipown)                    |                 |                 |                 |
+| pMOSFET 2.5-V (G-S) 1A, 5V (SATA), 3.3V (EMAC)     | [*TCS*](TCS/00-comefrom-urls)                 | [**TCS1305**](TCS)                       | `Q1`, `Q6`      | SOT23-0.95mm    | [IMG][iCB1SATA] |
+| Low RDS(ON) Load Switch, VBUS USB Host, USB OTG    | [*TCS*](TCS/00-comefrom-urls)                 | [**TCS9708**](TCS)                       | `U10 - U12`     | SOT23-5-0.95mm  |                 |
+| 10/100M Fast Ethernet PHY Receiver (EMAC)          | [*Realtek*](Realtek/00-comefrom-urls)         | [**RTL8201CP**](Realtek/RTL8201CP)       | `U13`           | LQFP48-0.5mm    | [IMG][iCB1EMAC] |
+| IR Receiver                                        | [*Vishay*](Vishay/00-comefrom-urls)           | [**HS0038B-NEC**](Vishay)                | `U9`            |                 |                 |
 
 [iCB1CPU]:  Cubietech/CubieBoard1/IMG/cubieboard1-6.jpg
 [iCB1DDR3]: Cubietech/CubieBoard1/IMG/cubieboard1-7-gt.jpg
