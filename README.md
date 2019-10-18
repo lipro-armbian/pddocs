@@ -53,9 +53,12 @@ https://askubuntu.com/a/1136178
 
 #### Assembly
 
-| ![Cable](Cubietech/USBUARTCable/IMG/cubieboard-uart-6.jpg) | ![Board](Cubietech/USBUARTCable/IMG/cubieboard-uart-3.jpg) |
-| :--------------------------------------------------------: | :--------------------------------------------------------: |
-| *UART 3.3V TTL wires*                                      | *CubieBoard 1&2 connection*                                |
+| ![Cable][iCUCCABLE]          | ![Board][iCUCBOARD]          |
+| :--------------------------: | :--------------------------: |
+| *UART 3.3V TTL wires*        | *CubieBoard 1&2 connection*  |
+
+[iCUCCABLE]: Cubietech/USBUARTCable/IMG/cubieboard-uart-6.jpg
+[iCUCBOARD]: Cubietech/USBUARTCable/IMG/cubieboard-uart-3.jpg
 
 * http://www.cubietech.com/product-detail/usb-uart-cable
 * http://linux-sunxi.org/Cubieboard/TTL
