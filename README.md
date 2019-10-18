@@ -278,6 +278,20 @@ https://askubuntu.com/a/1136178
 
 ---
 
+[r12]: https://placehold.it/12/f03c15/000000?text=+
+[g12]: https://placehold.it/15/c5f015/000000?text=+
+[b12]: https://placehold.it/15/1589F0/000000?text=+
+
+<style type="text/css">
+  .note { font-weight: bold; color: #f03c15; }
+  .good { font-weight: bold; color: #c5f015; }
+  .hint { font-weight: bold; color: #1589F0; }
+  img[src*="#w=150"] { width: 150px; }
+  img[alt$="iw=150"] { width: 150px; }
+  img[src*="#w=300"] { width: 300px; }
+  img[alt$="iw=300"] { width: 300px; }
+</style>
+
 <!--
 shell script I used to generare the TOC on top of this file manually:
 cat README.md \
