@@ -45,9 +45,9 @@ https://askubuntu.com/a/1136178
 
 ##### Electronic Parts
 
-| Component                                          | Manufactor                                    | Name                                     | V1/2/3            | Package         | Refs            |
-| :------------------------------------------------- | :-------------------------------------------- | :--------------------------------------- | :---------------: | :-------------- | :-------------: |
-| USB to Serial Bridge Controller, 3.3/5V, USB 1.1   | [*Prolific*](Prolific/00-comefrom-urls)       | [**PL2303HX**](Prolific/PL2303)          | `U1`              | SSOP28-0.65mm   | [IMG][iCUCPLC]  |
+| Component                                          | Manufactor                                    | Name                                     | V1/2/3          | Package         | Refs            |
+| :------------------------------------------------- | :-------------------------------------------- | :--------------------------------------- | :-------------: | :-------------- | :-------------: |
+| USB to Serial Bridge Controller, 3.3/5V, USB 1.1   | [*Prolific*](Prolific/00-comefrom-urls)       | [**PL2303HX**](Prolific/PL2303)          | `U1`            | SSOP28-0.65mm   | [IMG][iCUCPLC]  |
 
 [iCUCPLC]: Cubietech/USBUARTCable/IMG/cubieboard-uart-4.jpg
 
