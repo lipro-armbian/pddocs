@@ -69,9 +69,19 @@ https://askubuntu.com/a/1136178
 
 #### Construction
 
-| Release    | Schematic                                                                             | Layout (PCB)    | 2D Drawing | 3D Model   | Status     |
-| :--------: | :-----------------------------------------------------------------------------------: | :-------------: | :--------: | :--------: | :--------: |
-| V1         | [2012-08-08](Cubietech/CubieBoard1/CAD/cubieboard_schematic_2012-08-08.pdf)           | 2012-09-09      |            |            | **EOL**    |
+| Release    | Schematic                           | Layout (PCB)                        | 2D Drawing                          | 3D Model                            | Status     |
+| :--------: | :---------------------------------: | :---------------------------------: | :---------------------------------: | :---------------------------------: | :--------: |
+| V1         | [PDF][dCB1V1PSC]                    | 2012-09-09                          | [DXF][dCB1V1DXF] ([PDF][dCB1V1P2D]) |                                     | **EOL**    |
+
+[dCB1V1PSC]:
+   Cubietech/CubieBoard1/CAD/cubieboard_schematic_2012-08-08.pdf
+   "2012-08-08 (A10-cubieboard-2012-08-08, Rev: V1.0)"
+[dCB1V1DXF]:
+   Cubietech/CubieBoard1/CAD/Cubieboard1&2%20Mechanical_120909.dxf
+   "2012-09-09"
+[dCB1V1P2D]:
+   Cubietech/CubieBoard1/CAD/Cubieboard1&2%20Mechanical_120909.pdf
+   "2012-09-09"
 
 #### Components
 
