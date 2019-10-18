@@ -139,9 +139,14 @@ https://askubuntu.com/a/1136178
 
 ##### Expansion Ports
 
-| ![CubieBoard 1 Expansion Ports Drawing](Cubietech/CubieBoard1/CAD/a10_a20_cubieboard_expansion_ports.png) | ![Cubian GPIO Pin Definition](Cubietech/CubieBoard1/CAD/gpio_defination_large.jpg) |
-| :-------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
-| [*Drawing*](Cubietech/CubieBoard1/CAD/a10_a20_cubieboard_expansion_ports.pdf)                             | [*Drawing*](Cubietech/CubieBoard1/CAD/gpio_defination_cubian.pdf)                  |
+| ![CB1 Expansion Ports Drawing][iCB1EXPPD]     | ![Cubian GPIO Pin Definition][iCB1GPIOD]      |
+| :-------------------------------------------: | :-------------------------------------------: |
+| [*Drawing*][dCB1EXPPD]                        | [*Drawing*][dCB1EXPPD]                        |
+
+[iCB1EXPPD]: Cubietech/CubieBoard1/CAD/a10_a20_cubieboard_expansion_ports.png
+[dCB1EXPPD]: Cubietech/CubieBoard1/CAD/a10_a20_cubieboard_expansion_ports.pdf
+[iCB1GPIOD]: Cubietech/CubieBoard1/CAD/gpio_defination_large.jpg
+[dCB1GPIOD]: Cubietech/CubieBoard1/CAD/gpio_defination_cubian.pdf
 
 #### Armbian
 
