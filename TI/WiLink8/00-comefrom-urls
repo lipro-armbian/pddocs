@@ -1,0 +1,135 @@
+https://www.ti.com
+--> https://www.ti.com/wireless-connectivity/overview.html
+    --> http://www.ti.com/wireless-connectivity/simplelink-solutions/wi-fi/products.html
+    --> http://www.ti.com/wireless-connectivity/simplelink-solutions/wi-fi/overview/overview.html
+    --> http://www.ti.com/wireless-connectivity/simplelink-solutions/wi-fi/overview/wilink-combo-solutions.html
+        --> http://www.ti.com/lit/swru423
+            --> SWRU423A WiLink 8 WLAN Features User's Guide - r2016.5 (2018-07-09).pdf
+        --> http://www.ti.com/lit/swpa232
+            --> FIPS-140-2-level-1/SWPA232A FIPS Compliant vs. FIPS Validated - r2019.6 (2019-06-27).pdf
+        --> https://csrc.nist.gov/projects/cryptographic-module-validation-program/Certificate/3257
+            --> https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3257.pdf
+                --> FIPS-140-2-level-1/WL1837MOD Non-proprietary FIPS 140-2 Security Policy - v1.10 (2018-07-11).pdf
+            --> https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertAug2018.pdf
+                --> FIPS-140-2-level-1/FIPS 140-2 Consolidated Validation Certificate (2018-09-13).pdf
+        --> http://www.ti.com/product/WL1801MOD
+            --> http://www.ti.com/lit/gpn/wl1801mod
+                --> http://www.ti.com/lit/ds/symlink/wl1801mod.pdf
+                    --> SWRS152M WL1801MOD WiLink 8 Single-Band Module Datasheet - r2013.7 (2016-01-07).pdf
+                    <-- SWRS152M WL18xxMOD WiLink 8 Single-Band Module Datasheet - r2013.7 (2016-01-07).pdf
+            --> http://www.ti.com/lit/pdf/swru437
+                --> http://www.ti.com/lit/ug/swru437a/swru437a.pdf
+                    --> SWRU437A WiLink Module Hardware Integration Guide - r2015.9 (2018-08-06).pdf
+            --> http://www.ti.com/lit/zip/swru554
+                --> http://www.ti.com/lit/ug/swru554/swru554.zip
+                    --> SWRU554 WL18xx Design Checklist - r2015.1 (2019-06-27).zip
+            --> http://www.ti.com/lit/pdf/swra448
+                --> http://www.ti.com/lit/an/swra448a/swra448a.pdf
+                    --> SWRA448A WL18xx(MOD,Q) IO Level Shifting - r2014.2 (2015-08-17).pdf
+            --> http://www.ti.com/lit/pdf/swru422
+                --> http://www.ti.com/lit/an/swru422a/swru422a.pdf
+                    --> SWRU422A WL18xx INI File - r2015.9 (2015-12-08).pdf
+            --> http://www.ti.com/lit/pdf/swra489
+                --> http://www.ti.com/lit/an/swra489/swra489.pdf
+                    --> SWRA489 WiLink 8 Solutions - wlconf (2015-08-03).pdf
+            --> http://www.ti.com/lit/pdf/swaa166
+                --> http://www.ti.com/lit/an/swaa166/swaa166.pdf
+                    --> SWAA166 WiLink 8 Software - 802.11s Mesh (2016-06-24).pdf
+            --> http://www.ti.com/lit/zip/swrq029
+                --> http://www.ti.com/lit/ml/swrq029/swrq029.zip
+                    --> SWRQ029 WL1801MOD MTBF Reliability Estimate (2019-08-07).pdf
+            --> http://www.ti.com/lit/pdf/swrq045
+                --> http://www.ti.com/lit/ml/swrq045/swrq045.pdf
+                    --> SWRQ045 WL18MODGB (Test Grade 01: WL18MODGBMOC) EC DoC (2017-08-30).pdf
+        --> http://www.ti.com/product/WL1805MOD
+            --> http://www.ti.com/lit/gpn/wl1805mod
+                --> http://www.ti.com/lit/ds/symlink/wl1805mod.pdf
+                    --> SWRS152M WL1805MOD WiLink 8 Single-Band Module Datasheet - r2013.7 (2016-01-07).pdf
+                    <-- SWRS152M WL18xxMOD WiLink 8 Single-Band Module Datasheet - r2013.7 (2016-01-07).pdf
+            --> http://www.ti.com/lit/zip/swrq030
+                --> http://www.ti.com/lit/ml/swrq030/swrq030.zip
+                    --> SWRQ030 WL1805MOD MTBF Reliability Estimate (2019-08-07).pdf
+            --> http://www.ti.com/lit/pdf/swrq046
+                --> http://www.ti.com/lit/ml/swrq046/swrq046.pdf
+                    --> SWRQ046 WL18MODGB (Test Grade 05: WL18MODGBMOC) EC DoC (2017-08-30).pdf
+        --> http://www.ti.com/product/WL1807MOD
+            --> http://www.ti.com/lit/gpn/wl1807mod
+                --> http://www.ti.com/lit/ds/symlink/wl1807mod.pdf
+                    --> SWRS170I WL1807MOD WiLink 8 Dual-Band Module Datasheet - r2014.8 (2017-10-31).pdf
+                    <-- SWRS170I WL18x7MOD WiLink 8 Dual-Band Module Datasheet - r2014.8 (2017-10-31).pdf
+            --> http://www.ti.com/lit/pdf/swaa161
+                --> http://www.ti.com/lit/an/swaa161/swaa161.pdf
+                    --> SWAA161 WL18xx 5GHZ Antenna Diversity (2015-06-29).pdf
+            --> http://www.ti.com/lit/zip/swrq031 
+                --> http://www.ti.com/lit/ml/swrq031/swrq031.zip
+                    --> SWRQ031 WL1807MOD MTBF Reliability Estimate (2019-08-07).pdf
+            --> http://www.ti.com/lit/pdf/swrq043
+                --> http://www.ti.com/lit/ml/swrq043/swrq043.pdf
+                    --> SWRQ043 WL18MODGI (Test Grade 07: WL1807MODGIMOC) EC DoC (2017-08-30).pdf
+        --> http://www.ti.com/product/WL1831MOD
+            --> http://www.ti.com/lit/gpn/wl1831mod
+                --> http://www.ti.com/lit/ds/symlink/wl1831mod.pdf
+                    --> SWRS152M WL1831MOD WiLink 8 Single-Band Module Datasheet - r2013.7 (2016-01-07).pdf
+                    <-- SWRS152M WL18xxMOD WiLink 8 Single-Band Module Datasheet - r2013.7 (2016-01-07).pdf
+            --> http://www.ti.com/lit/pdf/swru442
+                --> http://www.ti.com/lit/ug/swru442b/swru442b.pdf
+                    --> SWRU442B WiLink 8 Bluetooth Vendor-Specific HCI Commands - r2015.10 (2017-10-17).pdf
+            --> http://www.ti.com/lit/pdf/swpa234
+                --> http://www.ti.com/lit/an/swpa234/swpa234.pdf
+                    --> SWPA234 Capturing Bluetooth HCI Logs (2019-01-18).pdf
+            --> http://www.ti.com/lit/pdf/swra288
+                --> http://www.ti.com/lit/an/swra288b/swra288b.pdf
+                    --> SWRA288B Enhanced HCILL 4wire PM protocol - r2009.6 (2015-09-24).pdf
+            --> http://www.ti.com/lit/pdf/swra544
+                --> http://www.ti.com/lit/an/swra544/swra544.pdf
+                    --> SWRA544 WiLink Module Secure Connection for Bluetooth 4.2 (2017-05-19).pdf
+            --> http://www.ti.com/lit/zip/swrq032
+                --> http://www.ti.com/lit/ml/swrq032/swrq032.zip
+                    --> SWRQ032 WL1831MOD MTBF Reliability Estimate (2019-08-07).pdf
+            --> http://www.ti.com/lit/pdf/swrq047
+                --> http://www.ti.com/lit/ml/swrq047/swrq047.pdf
+                    --> SWRQ047 WL18MODGB (Test Grade 31: WL1831MODGBMOC) EC DoC (2017-08-30).pdf
+        --> http://www.ti.com/product/WL1835MOD
+            --> http://www.ti.com/lit/gpn/wl1835mod
+                --> http://www.ti.com/lit/ds/symlink/wl1835mod.pdf
+                    --> SWRS152M WL1835MOD WiLink 8 Single-Band Module Datasheet - r2013.7 (2016-01-07).pdf
+                    <-- SWRS152M WL18xxMOD WiLink 8 Single-Band Module Datasheet - r2013.7 (2016-01-07).pdf
+            --> http://www.ti.com/lit/zip/swrq033
+                --> http://www.ti.com/lit/ml/swrq033/swrq033.zip
+                    --> SWRQ033 WL1835MOD MTBF Reliability Estimate (2019-08-07).pdf
+            --> http://www.ti.com/lit/pdf/swrq048
+                --> http://www.ti.com/lit/ml/swrq048/swrq048.pdf
+                    --> SWRQ048 WL18MODGB (Test Grade 35: WL1835MODGBMOC) EC DoC (2017-08-30).pdf
+            --> http://www.ti.com/lit/pdf/swru359
+                --> http://www.ti.com/lit/ug/swru359e/swru359e.pdf
+                    --> SWRU359E WL1835MODCOM8B User's Guide - r2013.9 (2015-09-05).pdf
+        --> http://www.ti.com/product/WL1837MOD
+            --> http://www.ti.com/lit/gpn/wl1837mod
+                --> http://www.ti.com/lit/ds/symlink/wl1837mod.pdf
+                    --> SWRS170I WL1837MOD WiLink 8 Dual-Band Module Datasheet - r2014.8 (2017-10-31).pdf
+                    <-- SWRS170I WL18x7MOD WiLink 8 Dual-Band Module Datasheet - r2014.8 (2017-10-31).pdf
+            --> http://www.ti.com/lit/pdf/swru435
+                --> http://www.ti.com/lit/ug/swru435a/swru435a.pdf
+                    --> SWRU435A WiLink 8 WLAN gLogger Tool - r2015.9 (2016-01-18).pdf
+            --> http://www.ti.com/lit/pdf/swau058
+                --> http://www.ti.com/lit/ug/swau058d/swau058d.pdf
+                    --> SWAU058D Bluetooth Logger and LQM Tool - r2008.12 (2018-05-03).pdf
+            --> http://www.ti.com/lit/zip/swrq034
+                --> http://www.ti.com/lit/ml/swrq034/swrq034.zip
+                    --> SWRQ034 WL1837MOD MTBF Reliability Estimate (2019-08-07).pdf
+            --> http://www.ti.com/lit/pdf/swrq044
+                --> http://www.ti.com/lit/ml/swrq044/swrq044.pdf
+                    --> SWRQ044 WL18MODGI (Test Grade 37: WL1837MODGIMOC) EC DoC (2017-08-30).pdf
+            --> http://www.ti.com/lit/pdf/swru382
+                --> http://www.ti.com/lit/ug/swru382a/swru382a.pdf
+                    --> SWRU382A WL1837MODCOM8I User's Guide - r2014.11 (2014-12-19).pdf
+http://processors.wiki.ti.com/index.php/WL18xx
+--> http://processors.wiki.ti.com/index.php/WL18xx_Overview
+--> http://processors.wiki.ti.com/index.php/WL18xxMOD_Certificates
+--> http://processors.wiki.ti.com/index.php/WL18xxMOD_Certification_Reports
+--> http://processors.wiki.ti.com/index.php/WL18xxMOD_Regulatory_Product_Certification
+--> http://processors.wiki.ti.com/index.php/WiLink8_Linux_Getting_Started_Guide
+--> http://processors.wiki.ti.com/index.php/WL18xx_WiFi_Build_Process
+--> http://processors.wiki.ti.com/index.php/TI_Bluetooth_Stack_for_WL18xx_-_Getting_Started_Guide
+--> http://processors.wiki.ti.com/index.php/TI_Bluetooth_Stack_for_WL18xx_-_Build_Process
+http://e2e.ti.com/support/wireless-connectivity/wifi
