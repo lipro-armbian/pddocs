@@ -1,0 +1,16 @@
+https://www.nxp.com
+--> https://www.nxp.com/part/SGTL5000XNLA3
+--> https://www.nxp.com/part/SGTL5000XNAA3
+--> https://www.nxp.com/products/audio:AUDIO
+    --> https://www.nxp.com/products/audio:MC_53499
+        --> https://www.nxp.com/products/audio:SGTL5000
+	    --> https://www.nxp.com/docs/en/data-sheet/SGTL5000.pdf
+                --> SGTL5000 Datasheet - v6.0 (2013-11-05).pdf
+	    --> https://www.nxp.com/docs/en/errata/SGTL5000ER.pdf
+                --> SGTL5000 Silicon Errata - v2.0 (2013-06-06).pdf
+	    --> https://www.nxp.com/docs/en/application-note/AN3664.pdf
+                --> SGTL5000 I2S DSP Mode - r2 (2011-11-14).pdf
+	    --> https://www.nxp.com/docs/en/application-note/AN3663.pdf
+                --> SGTL5000 Initialization and Programming - v3.0 (2011-02-25).pdf
+	    --> https://www.nxp.com/docs/en/user-guide/KTSGTL5000UG.pdf
+                --> SGTL5000 Evaluation Platform User's Guide - v2.00 (2012-04-05).pdf
