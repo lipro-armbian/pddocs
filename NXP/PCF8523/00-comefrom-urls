@@ -1,0 +1,20 @@
+https://www.nxp.com
+--> https://www.nxp.com/part/PCF8523T
+--> https://www.nxp.com/part/PCF8523TK
+--> https://www.nxp.com/part/PCF8523TS
+--> https://www.nxp.com/part/PCF8523U
+--> https://www.nxp.com/products/peripherals-and-logic:PERIPHERALS-AND-LOGIC
+    --> https://www.nxp.com/products/peripherals-and-logic:SIGNAL-CHAIN
+        --> https://www.nxp.com/products/peripherals-and-logic:MC_71246
+            --> https://www.nxp.com/products/peripherals-and-logic:MC_71250
+                --> https://www.nxp.com/products/peripherals-and-logic:PCF8523
+	            --> https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf
+                        --> PCF8523 Datasheet - r7 (2015-04-28).pdf
+	            --> https://www.nxp.com/docs/en/application-note/AN11247.pdf
+                        --> Improved Timekeeping Accuracy Application Note - r1 (2012-12-17).pdf
+	            --> https://www.nxp.com/docs/en/user-guide/UM10301.pdf
+                        --> User Manual for NXP Real Time Clocks - v2.1 (2015-07-23).pdf
+	            --> https://www.nxp.com/docs/en/user-guide/UM10760.pdf
+                        --> User Manual for OM13511 Demo Board - r1 (2015-02-02).pdf
+	            --> https://www.nxp.com/docs/en/user-guide/UM10204.pdf
+                        --> I2C(IIC) Bus Specification and User Manual - r6 (2014-04-04).pdf
