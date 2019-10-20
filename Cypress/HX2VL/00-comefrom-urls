@@ -1,0 +1,21 @@
+https://www.cypress.com
+--> https://www.cypress.com/products/universal-serial-bus-usb#tab2
+    --> https://www.cypress.com/products/hx2vl
+        --> Design Support
+        --> Datasheets
+        --> https://www.cypress.com/documentation/datasheets/cy7c65632-cy7c65634-hx2vl-very-low-power-usb-20-hub-controller
+            --> https://www.cypress.com/file/114101/download
+                --> 001-67568_CY7C65632_CY7C65634_HX2VL_TM_VERY_LOW_POWER_USB_2.0_HUB_CONTROLLER.pdf
+                    --> CY7C65632 HX2VL Datasheet - rL (2018-04-18).pdf
+                        CY7C65634 HX2VL Datasheet - rL (2018-04-18).pdf
+            --> https://www.cypress.com/part/cy7c65632-28ltxc
+                --> https://www.cypress.com/documentation/application-notes/an72332-guidelines-system-design-using-cypress-s-usb-20-hub-hx2vl
+                    --> https://www.cypress.com/file/122726/download
+                        --> 001-72332_AN72332_Guidelines_on_System_Design_using_Cypress_s_USB_2.0_Hub_HX2VL.pdf
+                            --> HX2VL Guidelines on System Design - rI (2018-08-01).pdf
+                    --> https://www.cypress.com/file/117521/download
+                        --> CY7C65632-QFN28.pdf
+                            --> HX2VL QFN28 USB2.0 4-PORT DVK Schematic (2011-09-29).pdf
+                    --> https://www.cypress.com/file/117531/download
+                        --> CY7C65632-TQFP48.pdf
+                            --> HX2VL TQFP48 USB2.0 4-PORT DVK Schematic (2011-09-27).pdf
