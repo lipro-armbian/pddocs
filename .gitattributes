@@ -13,4 +13,3 @@
 *.docx filter=lfs diff=lfs merge=lfs -text
 *.ppt filter=lfs diff=lfs merge=lfs -text
 *.pptx filter=lfs diff=lfs merge=lfs -text
-*.dsn filter=lfs diff=lfs merge=lfs -text
