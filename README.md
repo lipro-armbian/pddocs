@@ -517,12 +517,16 @@ WandBoard SOM reference design [WBQUAD REV B1 (20130620)]. That are:**
 
 #### Construction
 
-| Release    | Schematic                                     | Layout<span class='hint'>\*</span> (PCB)                     | 2D Drawing                                    | 3D Model                                      | Status     |
+| Release    | Schematic                                     | Layout<span style='color:#1589f0;'>\*</span> (PCB)           | 2D Drawing                                    | 3D Model                                      | Status     |
 | :--------: | :-------------------------------------------: | :----------------------------------------------------------: | :-------------------------------------------: | :-------------------------------------------: | :--------: |
 | V1.2       | [DSN][dSRHB2V12DSN] ([PDF][dSRHB2V12PSC])     | [GDO][dSRHB2V12GDO] ([CS][dSRHB2V12PCS] [PS][dSRHB2V12PPS])  | [DXF][dSRHB2V12DXF] ([PDF][dSRHB2V12P2D])     | [PDF][dSRHB2V12P3D]                           | **EOL**    |
 | V1.4       | [PDF][dSRHB2V14PSC]                           | [PRJ][dSRHB2V14PRJ] ([CS][dSRHB2V14PCS] [PS][dSRHB2V14PPS])  |                                               | [STP][dSRHB2V14STP] ([PDF][dSRHB2V14P3D])     |            |
 
-<span class='hint'>\* HINT:</span> PRJ - OrCAD project, GDO - Gerber, CS - component side (PDF), PS - print/solder side (PDF)
+<span style='font-weight:bold;color:#1589f0;'>\*HINT:</span>
+<span style='color:#1589f0;'>PRJ</span> - OrCAD project,
+<span style='color:#1589f0;'>GDO</span> - Gerber,
+<span style='color:#1589f0;'>CS</span> - component side (PDF),
+<span style='color:#1589f0;'>PS</span> - print/solder side (PDF)
 
 [dSRHB2V12DSN]:
    SolidRun/SR-iMX6-HB2-HummingBoard2/CAD/hummingboard2_schematics_rev_1.2.dsn
@@ -590,16 +594,32 @@ WandBoard SOM reference design [WBQUAD REV B1 (20130620)]. That are:**
 
 #### Assembly
 
-| ![Board 2017-01-23 Top][iSRHB2GBRDC]                         | ![Board 2017-01-23 Bottom][iSRHB2GBRDP]                            |
+| [![zSRHB2GBRDC]][iSRHB2GBRDC]                                | [![zSRHB2GBRDP]][iSRHB2GBRDP]                                      |
 | :----------------------------------------------------------: | :----------------------------------------------------------------: |
 | *SR-iMX6-HB2 - HummingBoard 2 / Gate - top (component side)* | *SR-iMX6-HB2 - HummingBoard 2 / Gate - bottom (print/solder side)* |
-| ![Board 2017-01-23 Top][iSRHB2EBRDC]                         | ![Board 2017-01-23 Bottom][iSRHB2EBRDP]                            |
+| [![zSRHB2EBRDC]][iSRHB2EBRDC]                                | [![zSRHB2EBRDP]][iSRHB2EBRDP]                                      |
 | *SR-iMX6-HB2 - HummingBoard 2 / Edge - top (component side)* | *SR-iMX6-HB2 - HummingBoard 2 / Edge - bottom (print/solder side)* |
 
-[iSRHB2GBRDC]: SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/hummingboard-gate-components-top.jpg
-[iSRHB2GBRDP]: SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/hummingboard-gate-components-bottom.jpg
-[iSRHB2EBRDC]: SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/hummingboard-edge-components-top.jpg
-[iSRHB2EBRDP]: SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/hummingboard-edge-components-bottom.jpg
+[zSRHB2GBRDC]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/hummingboard-gate-components-top.jpg&w=600&trim=10
+[iSRHB2GBRDC]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/hummingboard-gate-components-top.jpg
+   "Board 2017-01-23 Top"
+[zSRHB2GBRDP]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/hummingboard-gate-components-bottom.jpg&w=600&trim=10
+[iSRHB2GBRDP]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/hummingboard-gate-components-bottom.jpg
+   "Board 2017-01-23 Bottom"
+[zSRHB2EBRDC]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/hummingboard-edge-components-top.jpg&w=600&trim=10
+[iSRHB2EBRDC]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/hummingboard-edge-components-top.jpg
+   "Board 2017-01-23 Top"
+[zSRHB2EBRDP]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/hummingboard-edge-components-bottom.jpg&w=600&trim=10
+[iSRHB2EBRDP]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/hummingboard-edge-components-bottom.jpg
+   "Board 2017-01-23 Bottom"
 
 * https://www.solid-run.com/nxp-family/hummingboard
 * https://developer.solid-run.com/products/hummingboard-gate-edge
@@ -608,30 +628,54 @@ WandBoard SOM reference design [WBQUAD REV B1 (20130620)]. That are:**
 
 ##### Console
 
-| ![r12]&#x2757;<span class='note'>TTL 3.3V</span>&#x2757;![r12] |
-| :------------------------------------------------------------: |
-| &#x2B95; `console=ttymxc0,115200n8`                            |
-| ![Console 2015-07-14][iSRHB2CONS]                              |
+| ![r12]&#x2757;<span style='color:#f03c15;'>TTL 3.3V</span>&#x2757;![r12] |
+| :----------------------------------------------------------------------: |
+| &#x2B95; `console=ttymxc0,115200n8`                                      |
+| [![zSRHB2CONS]][iSRHB2CONS]                                              |
 
-[iSRHB2CONS]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/Pasted-into-HummingBoard-GateEdge-UART-console-1.png&w=300
+[zSRHB2CONS]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/Pasted-into-HummingBoard-GateEdge-UART-console-1.png&w=300&trim=10
+[iSRHB2CONS]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/Pasted-into-HummingBoard-GateEdge-UART-console-1.png
+   "Console 2015-07-14"
 
 * https://developer.solid-run.com/knowledge-base/hummingboard-gate-edge-uart-console
 * https://developer.solid-run.com/knowledge-base/serial-console-usb-uart
 
 ##### Expansion Ports
 
-| ![HB2 Expansion Ports Top][iSRHB2EXPPDT]      | ![HB2 Expansion Ports Bottom][iSRHB2EXPPDB]   |
-| :-------------------------------------------: | :-------------------------------------------: |
-| [*Drawing Top*][dSRHB2EXPPDT]                 | [*Drawing Bottom*][dSRHB2EXPPDB]              |
-| ![J2x][iSRHB2EXPJ2X]
-| ![J2D][iSRHB2EXPJ2D]
+| [![zSRHB2EXPPDT]][iSRHB2EXPPDT]     | [![zSRHB2EXPPDB]][iSRHB2EXPPDB]     |
+| :---------------------------------: | :---------------------------------: |
+| [PDF][dSRHB2EXPPDT]                 | [PDF][dSRHB2EXPPDB]                 |
+| [![zSRHB2EXPJ2X]][iSRHB2EXPJ2X]     ||
+| [![zSRHB2EXPJ2D]][iSRHB2EXPJ2D]     ||
 
-[iSRHB2EXPPDT]: SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/hummingboard%202-v1.4-Assy/HummingBoard2%20Rev%201.4%20Assembly%20Drawing%20CS.svg
-[dSRHB2EXPPDT]: SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/hummingboard%202-v1.4-Assy/HummingBoard2%20Rev%201.4%20Assembly%20Drawing%20CS.pdf
-[iSRHB2EXPPDB]: SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/hummingboard%202-v1.4-Assy/HummingBoard2%20Rev%201.4%20Assembly%20Drawing%20PS.svg
-[dSRHB2EXPPDB]: SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/hummingboard%202-v1.4-Assy/HummingBoard2%20Rev%201.4%20Assembly%20Drawing%20PS.pdf
-[iSRHB2EXPJ2X]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-iMX6-HB2-HummingBoard2/DOC/hb2-gpios.png&w=300
-[iSRHB2EXPJ2D]: SolidRun/SR-iMX6-HB2-HummingBoard2/DOC/hb2-gpio.png
+[zSRHB2EXPPDT]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/hummingboard%202-v1.4-Assy/HummingBoard2%20Rev%201.4%20Assembly%20Drawing%20CS.svg&w=600&trim=10
+[iSRHB2EXPPDT]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/hummingboard%202-v1.4-Assy/HummingBoard2%20Rev%201.4%20Assembly%20Drawing%20CS.svg
+   "SR-iMX6-HB2 - HummingBoard 2 Expansion Ports Top: Drawing"
+[dSRHB2EXPPDT]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/hummingboard%202-v1.4-Assy/HummingBoard2%20Rev%201.4%20Assembly%20Drawing%20CS.pdf
+   "SR-iMX6-HB2 - HummingBoard 2 Expansion Ports Top: Drawing"
+[zSRHB2EXPPDB]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/hummingboard%202-v1.4-Assy/HummingBoard2%20Rev%201.4%20Assembly%20Drawing%20PS.svg&w=600&trim=10
+[iSRHB2EXPPDB]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/hummingboard%202-v1.4-Assy/HummingBoard2%20Rev%201.4%20Assembly%20Drawing%20PS.svg
+   "SR-iMX6-HB2 - HummingBoard 2 Expansion Ports Bottom: Drawing"
+[dSRHB2EXPPDB]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/hummingboard%202-v1.4-Assy/HummingBoard2%20Rev%201.4%20Assembly%20Drawing%20PS.pdf
+   "SR-iMX6-HB2 - HummingBoard 2 Expansion Ports Bottom: Drawing"
+[zSRHB2EXPJ2X]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-iMX6-HB2-HummingBoard2/DOC/hb2-gpios.png&w=300&trim=10
+[iSRHB2EXPJ2X]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/DOC/hb2-gpios.png
+   "SR-iMX6-HB2 - HummingBoard 2 Expansion Ports Top: J21, J22, J23, J24"
+[zSRHB2EXPJ2D]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-iMX6-HB2-HummingBoard2/DOC/hb2-gpio.png&w=600&trim=10
+[iSRHB2EXPJ2D]:
+   SolidRun/SR-iMX6-HB2-HummingBoard2/DOC/hb2-gpio.png
+   "SR-iMX6-HB2 - HummingBoard 2 Expansion Ports Top: Description Table"
 
 ---
 
