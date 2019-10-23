@@ -134,7 +134,7 @@ https://askubuntu.com/a/1136178
 | &#x2B95; `console=ttyS0,115200n8`                              |
 | ![Console 2012-09-09][iCB1CONS]                                |
 
-[iCB1CONS]: Cubietech/USBUARTCable/IMG/Cubieboard.UART-TTL_wire_colors.jpg#w=300
+[iCB1CONS]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/Cubietech/USBUARTCable/IMG/Cubieboard.UART-TTL_wire_colors.jpg&w=300
 
 * https://linux-sunxi.org/Cubietech_Cubieboard#Adding_a_serial_port
 * http://linux-sunxi.org/Cubieboard/TTL
@@ -244,7 +244,7 @@ https://askubuntu.com/a/1136178
 | &#x2B95; `console=ttyS0,115200n8`                              |
 | ![Console 2012-09-09][iCB2CONS]                                |
 
-[iCB2CONS]: Cubietech/USBUARTCable/IMG/Cubieboard.UART-TTL_wire_colors.jpg#w=300
+[iCB2CONS]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/Cubietech/USBUARTCable/IMG/Cubieboard.UART-TTL_wire_colors.jpg&w=300
 
 * https://linux-sunxi.org/Cubietech_Cubieboard2#Adding_a_serial_port
 * http://linux-sunxi.org/Cubieboard/TTL
@@ -347,7 +347,7 @@ https://askubuntu.com/a/1136178
 | &#x2B95; `console=ttyS0,115200n8`                              |
 | ![Console 2012-09-09][iCB3CONS]                                |
 
-[iCB3CONS]: Cubietech/CubieBoard3-CubieTruck/IMG/Cubietruck-6_UART0_RevA.jpg#w=300
+[iCB3CONS]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/Cubietech/CubieBoard3-CubieTruck/IMG/Cubietruck-6_UART0_RevA.jpg&w=300
 
 * https://linux-sunxi.org/Cubietech_Cubietruck#Adding_a_serial_port
 * http://linux-sunxi.org/Cubieboard/TTL
@@ -392,13 +392,13 @@ https://askubuntu.com/a/1136178
 | Random Access Memory (DDR3-SDRAM)   | 32 bit, 512MB @ 800Mbps   | 64 bit, 1GB @ 800Mbps     | 64 bit, 1GB @ 1066Mbps    | 64 bit, 2GB @ 1066Mbps    |
 | Serial AT Attachment (SATA)         |                           |                           | SATA 3 Gbit/s             | SATA 3 Gbit/s             |
 | **V1.2**                            | ![iSRSOM6S12]             | ![iSRSOM6DL12]            | ![iSRSOM6D12]             | ![iSRSOM6Q12]             |
-| **V1.5**                            |                           |                           |                           | ![iw=150][iSRSOM6Q15]     |
+| **V1.5**                            |                           |                           |                           | ![iSRSOM6Q15]             |
 
-[iSRSOM6S12]:  SolidRun/SR-uSOM-MX6/IMG/imx-microsom-single.jpg#w=150
-[iSRSOM6DL12]: SolidRun/SR-uSOM-MX6/IMG/imx-microsom-dual_lite.jpg#w=150
-[iSRSOM6D12]:  SolidRun/SR-uSOM-MX6/IMG/imx-microsom-dual.jpg#w=150
-[iSRSOM6Q12]:  SolidRun/SR-uSOM-MX6/IMG/imx-microsom-quad.jpg#w=150
-[iSRSOM6Q15]:  SolidRun/SR-uSOM-MX6/IMG/sr-imx6-som-user_manual-rev1.3-001.jpg
+[iSRSOM6S12]:  https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/imx-microsom-single.jpg&w=150
+[iSRSOM6DL12]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/imx-microsom-dual_lite.jpg&w=150
+[iSRSOM6D12]:  https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/imx-microsom-dual.jpg&w=150
+[iSRSOM6Q12]:  https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/imx-microsom-quad.jpg&w=150
+[iSRSOM6Q15]:  https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/sr-imx6-som-user_manual-rev1.3-001.jpg&w=150
 
 #### Construction
 
@@ -503,10 +503,10 @@ WandBoard SOM reference design [WBQUAD REV B1 (20130620)]. That are:**
 | ![Board 2017-03-12 Block][iSRSOM6BRDB]    | ![Board 2017-03-12 Heatsink][iSRSOM6BRDH]    |
 | *SR-uSOM-MX6 - i1 / i2 / i2eX / i4Pro*    | *SR-uSOM-MX6 - heatsink*                     |
 
-[iSRSOM6BRDC]: SolidRun/SR-uSOM-MX6/IMG/SOM-iMX6-top-hotspots.png
-[iSRSOM6BRDP]: SolidRun/SR-uSOM-MX6/IMG/SOM-iMX6-back-hotspots.png
-[iSRSOM6BRDB]: SolidRun/SR-uSOM-MX6/DOC/Rev-1.5-Block-Digaram-1024x737.png
-[iSRSOM6BRDH]: SolidRun/SR-uSOM-MX6/IMG/SOM-iMX6-heatsink.jpg
+[iSRSOM6BRDC]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/SOM-iMX6-top-hotspots.png&w=300
+[iSRSOM6BRDP]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/SOM-iMX6-back-hotspots.png&w=300
+[iSRSOM6BRDB]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/DOC/Rev-1.5-Block-Digaram-1024x737.png&w=600
+[iSRSOM6BRDH]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/SOM-iMX6-heatsink.jpg&w=300
 
 * https://www.solid-run.com/nxp-family/imx6-som
 * https://developer.solid-run.com/products/imx6-som
@@ -613,7 +613,7 @@ WandBoard SOM reference design [WBQUAD REV B1 (20130620)]. That are:**
 | &#x2B95; `console=ttymxc0,115200n8`                            |
 | ![Console 2015-07-14][iSRHB2CONS]                              |
 
-[iSRHB2CONS]: SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/Pasted-into-HummingBoard-GateEdge-UART-console-1.png#w=300
+[iSRHB2CONS]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-iMX6-HB2-HummingBoard2/IMG/Pasted-into-HummingBoard-GateEdge-UART-console-1.png&w=300
 
 * https://developer.solid-run.com/knowledge-base/hummingboard-gate-edge-uart-console
 * https://developer.solid-run.com/knowledge-base/serial-console-usb-uart
@@ -630,7 +630,7 @@ WandBoard SOM reference design [WBQUAD REV B1 (20130620)]. That are:**
 [dSRHB2EXPPDT]: SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/hummingboard%202-v1.4-Assy/HummingBoard2%20Rev%201.4%20Assembly%20Drawing%20CS.pdf
 [iSRHB2EXPPDB]: SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/hummingboard%202-v1.4-Assy/HummingBoard2%20Rev%201.4%20Assembly%20Drawing%20PS.svg
 [dSRHB2EXPPDB]: SolidRun/SR-iMX6-HB2-HummingBoard2/CAM/hummingboard%202-v1.4-Assy/HummingBoard2%20Rev%201.4%20Assembly%20Drawing%20PS.pdf
-[iSRHB2EXPJ2X]: SolidRun/SR-iMX6-HB2-HummingBoard2/DOC/hb2-gpios.png#w=300
+[iSRHB2EXPJ2X]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-iMX6-HB2-HummingBoard2/DOC/hb2-gpios.png&w=300
 [iSRHB2EXPJ2D]: SolidRun/SR-iMX6-HB2-HummingBoard2/DOC/hb2-gpio.png
 
 ---
@@ -643,10 +643,6 @@ WandBoard SOM reference design [WBQUAD REV B1 (20130620)]. That are:**
   .note { font-weight: bold; color: #f03c15; }
   .good { font-weight: bold; color: #c5f015; }
   .hint { font-weight: bold; color: #1589F0; }
-  img[src*="#w=150"] { width: 150px; }
-  img[alt$="iw=150"] { width: 150px; }
-  img[src*="#w=300"] { width: 300px; }
-  img[alt$="iw=300"] { width: 300px; }
 </style>
 
 <!--
@@ -662,60 +658,4 @@ cat README.md \
     | sed 's/^###/    /' \
     | sed 's/^##/  /' \
     | sed 's/^#//'
--->
-
-<!--
-[iSRSOM6S]:  https://demo.cloudimg.io/width/150/n/https://www.solid-run.com/wiki/lib/exe/fetch.php?cache=&media=imx6:microsom:imx-microsom-single.jpg
-[iSRSOM6DL]: https://demo.cloudimg.io/width/150/n/https://www.solid-run.com/wiki/lib/exe/fetch.php?cache=&media=imx6:microsom:imx-microsom-dual_lite.jpg
-[iSRSOM6D]:  https://demo.cloudimg.io/width/150/n/https://www.solid-run.com/wiki/lib/exe/fetch.php?cache=&media=imx6:microsom:imx-microsom-dual.jpg
-[iSRSOM6Q]:  https://demo.cloudimg.io/width/150/n/https://www.solid-run.com/wiki/lib/exe/fetch.php?cache=&media=imx6:microsom:imx-microsom-quad.jpg
--->
-
-<!--
-using a placeholder image service, for example:
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
-- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
-- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
--->
-
-<!--
-in case this may be helpful for someone who just needs to show colors
-rather than output, as a hackish workaround (and FYI), since Github
-supports Unicode numeric character references (and HTML entities),
-you could try colored Unicode symbols, though it depends on the font
-rendering them in color (as it happens to be appearing for me on
-Windows 10 and Mac 10.12.5, at least, though on the Mac at least,
-the up/down-pointing small red triangles don't show in red):
-- RED APPLE (`&#x1F34E;`): 🍎
-- GREEN APPLE (`&#x1F34F;`): 🍏
-- BLUE HEART (`&#x1F499;`): 💙
-- GREEN HEART (`&#x1F49A;`): 💚
-- YELLOW HEART (`&#x1F49B;`): 💛
-- PURPLE HEART (`&#x1F49C;`): 💜
-- GREEN BOOK (`&#x1F4D7;`): 📗
-- BLUE BOOK (`&#x1F4D8;`): 📘
-- ORANGE BOOK (`&#x1F4D9;`): 📙
-- LARGE RED CIRCLE (`&#x1F534;`): 🔴
-- LARGE BLUE CIRCLE (`&#x1F535;`): 🔵
-- LARGE ORANGE DIAMOND (`&#x1F536;`): 🔶
-- LARGE BLUE DIAMOND (`&#x1F537;`): 🔷
-- SMALL ORANGE DIAMOND (`&#x1F538;`): 🔸
-- SMALL BLUE DIAMOND (`&#x1F539;`): 🔹
-- UP-POINTING RED TRIANGLE (`&#x1F53A;`): 🔺
-- DOWN-POINTING RED TRIANGLE (`&#x1F53B;`): 🔻
-- UP-POINTING SMALL RED TRIANGLE (`&#x1F53C;`): 🔼
-- DOWN-POINTING SMALL RED TRIANGLE (`&#x1F53D;`): 🔽
-
-https://www.fileformat.info/info/unicode/block/arrows/utf8test.htm
-https://www.fileformat.info/info/unicode/block/miscellaneous_technical/utf8test.htm
-https://www.fileformat.info/info/unicode/block/miscellaneous_symbols/utf8test.htm
-https://www.fileformat.info/info/unicode/block/dingbats/utf8test.htm
-https://www.fileformat.info/info/unicode/block/supplemental_arrows_a/utf8test.htm
-https://www.fileformat.info/info/unicode/block/supplemental_arrows_b/utf8test.htm
-https://www.fileformat.info/info/unicode/block/miscellaneous_symbols_and_arrows/utf8test.htm
-https://www.fileformat.info/info/unicode/block/enclosed_alphanumeric_supplement/utf8test.htm
-https://www.fileformat.info/info/unicode/block/miscellaneous_symbols_and_pictographs/utf8test.htm
-https://www.fileformat.info/info/unicode/block/emoticons/utf8test.htm
-https://www.fileformat.info/info/unicode/block/transport_and_map_symbols/utf8test.htm
-https://www.fileformat.info/info/unicode/block/supplemental_symbols_and_pictographs/utf8test.htm
 -->
