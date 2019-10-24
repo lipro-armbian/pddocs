@@ -306,7 +306,7 @@ https://askubuntu.com/a/1136178
 | Power Management IC (PMIC), Li-Battery Charger     | [*X-Powers*](X-Powers/00-comefrom-urls)       | [**AXP209**](X-Powers/AXP209)            | `U9`            | `U9`            | QFN48-0.4mm     | [IMG][iCB3PMIC] |
 | Step Down Regulator, 1.5V (DDR3), 3.3V (I/O)       |                                               |  **TCS4199**                             | `U7`, `U8`      | `U7`, `U8`      | SOT23-5         |                 |
 | LDO Voltage Regulator, 2.5V (SATA)                 | [*TCS*](TCS/00-comefrom-urls)                 | [**TCS2108-25**](TCS)                    | `U10`           | `U10`           | SOT25-0.95mm    |                 |
-| pMOSFET 2.5-V (G-S) 1A, 5V (SATA)                  | [*TCS*](TCS/00-comefrom-urls)                 | [**TCS1305**](TCS)                       | `Q1`            | `Q1`            | SOT23-0.95mm    | [IMG][iCB1SATA] |
+| pMOSFET 2.5-V (G-S) 1A, 5V (SATA)                  | [*TCS*](TCS/00-comefrom-urls)                 | [**TCS1305**](TCS)                       | `Q1`            | `Q1`            | SOT23-0.95mm    | [IMG][iCB3SATA] |
 | Low RDS(ON) Load Switch, VBUS USB Host             | [*TCS*](TCS/00-comefrom-urls)                 | [**TCS9708**](TCS)                       | `U13`, `U14`    | `U13`, `U14`    | SOT23-5-0.95mm  |                 |
 | Low RDS(ON) Load Switch, VBUS USB OTG              | [*Silergy*](Silergy/00-comefrom-urls)         | [**SY6280**](Silergy)                    |                 | `OU2`           | SOT23-5-0.95mm  |                 |
 |                                                    | [*TCS*](TCS/00-comefrom-urls)                 | [**TCS9708**](TCS)                       | `OU2`           |                 |                 |                 |
@@ -316,24 +316,48 @@ https://askubuntu.com/a/1136178
 |                                                    |                                               | [**CYW20710**](Broadcom/CYW20710) BT     |                 |                 |                 |                 |
 | IR Receiver                                        | [*Vishay*](Vishay/00-comefrom-urls)           | [**HS0038B**](Vishay)                    | `U12`           | `U12`           |                 |                 |
 
-[iCB3CPU]:  Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-10.jpg
-[iCB3DDRG]: Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-11-gt.jpg
-[iCB3DDRH]: Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-11.jpg
-[iCB3NAND]: Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-23.jpg
-[iCB3TSD]:  Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-22.jpg
-[iCB3EMMC]: Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-24.jpg
-[iCB3PMIC]: Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-15.jpg
-[iCB3SATA]: Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-14.jpg
-[iCB3EMAC]: Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-13.jpg
-[iCB3WFBT]: Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-16.jpg
+[iCB3CPU]:
+   Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-10.jpg
+   "Allwinner A20 Cortex-A7 DualCore Mali 400 MP2"
+[iCB3DDRG]:
+   Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-11-gt.jpg
+   "2 GB GT DDR3 32 Bit Width 512M*8*4pcs"
+[iCB3DDRH]:
+   Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-11.jpg
+   "2 GB Hynix DDR3 32 Bit Width 512M*8*4pcs"
+[iCB3NAND]:
+   Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-23.jpg
+   "CubieBoard3 V1.0-130606 Nand (EOL Soon!)"
+[iCB3TSD]:
+   Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-22.jpg
+   "CubieBoard3 V1.0-130606 TSD (End of Life!)"
+[iCB3EMMC]:
+   Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-24.jpg
+   "CubieBoard3 V2.0-20180303 eMMC (Long Term Supply! Jan 2019)"
+[iCB3PMIC]:
+   Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-15.jpg
+   "Intelligent PMU Support Dynamic Voltage and Frequency Scaling (DVFS)"
+[iCB3SATA]:
+   Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-14.jpg
+   "SATA 2.0 3 GBPS 2.5'' SSD"
+[iCB3EMAC]:
+   Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-13.jpg
+   "GigaBit RJ45"
+[iCB3WFBT]:
+   Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-16.jpg
+   "WIFI abg/n Bluetooth 4.0"
 
 #### Assembly
 
-| ![Board V1.0-0606][iCB3BOARD]      |
-| :--------------------------------: |
-| *CubieBoard 3 - CubieTruck*        |
+| [![zCB3BOARD]][iCB3BOARD]                              |
+| :----------------------------------------------------: |
+| *CubieBoard 3 - CubieTruck - top (component side)*     |
 
-[iCB3BOARD]: Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-9.jpg
+[zCB3BOARD]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-9.jpg&trim=10
+[iCB3BOARD]:
+   Cubietech/CubieBoard3-CubieTruck/IMG/cubieboard3-9.jpg
+   "Board V1.0-0606 Top"
 
 * [How to use CubieTruck TSD Version](Cubietech/CubieBoard3-CubieTruck/DOC/How%20to%20use%20CubieTruck%20TSD%20Version.pdf)
 * http://www.cubietech.com/product-detail/cubieboard3
@@ -342,12 +366,16 @@ https://askubuntu.com/a/1136178
 
 ##### Console
 
-| ![r12]&#x2757;<span class='note'>TTL 3.3V</span>&#x2757;![r12] |
-| :------------------------------------------------------------: |
-| &#x2B95; `console=ttyS0,115200n8`                              |
-| ![Console 2012-09-09][iCB3CONS]                                |
+| ![r12]&#x2757;<span style='color:#f03c15;'>TTL 3.3V</span>&#x2757;![r12] |
+| :----------------------------------------------------------------------: |
+| &#x2B95; `console=ttyS0,115200n8`                                        |
+| [![zCB3CONS]][iCB3CONS]                                                  |
 
-[iCB3CONS]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/Cubietech/CubieBoard3-CubieTruck/IMG/Cubietruck-6_UART0_RevA.jpg&w=300
+[zCB3CONS]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/Cubietech/CubieBoard3-CubieTruck/IMG/Cubietruck-6_UART0_RevA.jpg&precrop&cx=2084&cy=0&cw=2385&ch=2868&w=300&trim=10
+[iCB3CONS]:
+   Cubietech/CubieBoard3-CubieTruck/IMG/Cubietruck-6_UART0_RevA.jpg
+   "Console 2012-09-09"
 
 * https://linux-sunxi.org/Cubietech_Cubietruck#Adding_a_serial_port
 * http://linux-sunxi.org/Cubieboard/TTL
@@ -355,12 +383,18 @@ https://askubuntu.com/a/1136178
 
 ##### Expansion Ports
 
-| ![CB3-CT Expansion Ports Drawing][iCB3EXPPD]  |
-| :-------------------------------------------: |
-| [*Drawing*][dCB3EXPPD]                        |
+| [![zCB3EXPPD]][iCB3EXPPD] |
+| :-----------------------: |
+| [PDF][dCB3EXPPD]          |
 
-[iCB3EXPPD]: Cubietech/CubieBoard3-CubieTruck/CAD/a20_cubietruck_expansion_ports.png
-[dCB3EXPPD]: Cubietech/CubieBoard3-CubieTruck/CAD/a20_cubietruck_expansion_ports.pdf
+[zCB3EXPPD]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/Cubietech/CubieBoard3-CubieTruck/CAD/a20_cubietruck_expansion_ports.png&w=1200&trim=10
+[iCB3EXPPD]:
+   Cubietech/CubieBoard3-CubieTruck/CAD/a20_cubietruck_expansion_ports.png
+   "CubieBoard 3 - CubieTruck Expansion Ports Top: Drawing"
+[dCB3EXPPD]:
+   Cubietech/CubieBoard3-CubieTruck/CAD/a20_cubietruck_expansion_ports.pdf
+   "CubieBoard 3 - CubieTruck Expansion Ports Top: Drawing"
 
 #### Armbian
 
