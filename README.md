@@ -386,23 +386,43 @@ https://askubuntu.com/a/1136178
 
 **µSOM based on NXP i.MX6**
 
-| System on Module                    | uSOM i1                   | uSOM i2                   | uSOM i2eX                 | uSOM i4Pro                |
-| ----------------------------------: | :-----------------------: | :-----------------------: | :-----------------------: | :-----------------------: |
-| System on Chip ARM Cortex-A9 @ 1GHz | i.MX6 Solo                | i.MX6 Dual Lite           | i.MX6 Dual                | i.MX6 Quad                |
-| Random Access Memory (DDR3-SDRAM)   | 32 bit, 512MB @ 800Mbps   | 64 bit, 1GB @ 800Mbps     | 64 bit, 1GB @ 1066Mbps    | 64 bit, 2GB @ 1066Mbps    |
-| Serial AT Attachment (SATA)         |                           |                           | SATA 3 Gbit/s             | SATA 3 Gbit/s             |
-| **V1.2**                            | ![iSRSOM6S12]             | ![iSRSOM6DL12]            | ![iSRSOM6D12]             | ![iSRSOM6Q12]             |
-| **V1.5**                            |                           |                           |                           | ![iSRSOM6Q15]             |
+| System on Module                    | uSOM i1                        | uSOM i2                        | uSOM i2eX                      | uSOM i4Pro                     |
+| ----------------------------------: | :----------------------------: | :----------------------------: | :----------------------------: | :----------------------------: |
+| System on Chip ARM Cortex-A9 @ 1GHz | i.MX6 Solo                     | i.MX6 Dual Lite                | i.MX6 Dual                     | i.MX6 Quad                     |
+| Random Access Memory (DDR3-SDRAM)   | 32 bit, 512MB @ 800Mbps        | 64 bit, 1GB @ 800Mbps          | 64 bit, 1GB @ 1066Mbps         | 64 bit, 2GB @ 1066Mbps         |
+| Serial AT Attachment (SATA)         |                                |                                | SATA 3 Gbit/s                  | SATA 3 Gbit/s                  |
+| **V1.2**                            | [![zSRSOM6S12]][iSRSOM6S12]    | [![zSRSOM6DL12]][iSRSOM6DL12]  | [![zSRSOM6D12]][iSRSOM6D12]    | [![zSRSOM6Q12]][iSRSOM6Q12]    |
+| **V1.5**                            |                                |                                |                                | [![zSRSOM6Q15]][iSRSOM6Q15]    |
 
-[iSRSOM6S12]:  https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/imx-microsom-single.jpg&w=150
-[iSRSOM6DL12]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/imx-microsom-dual_lite.jpg&w=150
-[iSRSOM6D12]:  https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/imx-microsom-dual.jpg&w=150
-[iSRSOM6Q12]:  https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/imx-microsom-quad.jpg&w=150
-[iSRSOM6Q15]:  https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/sr-imx6-som-user_manual-rev1.3-001.jpg&w=150
+[zSRSOM6S12]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/imx-microsom-single.jpg&w=150&trim=10
+[iSRSOM6S12]:
+   SolidRun/SR-uSOM-MX6/IMG/imx-microsom-single.jpg
+   "uSOM i1 V1.2 (i.MX6 Solo)"
+[zSRSOM6DL12]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/imx-microsom-dual_lite.jpg&w=150&trim=10
+[iSRSOM6DL12]:
+   SolidRun/SR-uSOM-MX6/IMG/imx-microsom-dual_lite.jpg
+   "uSOM i2 V1.2 (i.MX6 Dual Lite)"
+[zSRSOM6D12]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/imx-microsom-dual.jpg&w=150&trim=10
+[iSRSOM6D12]:
+   SolidRun/SR-uSOM-MX6/IMG/imx-microsom-dual.jpg
+   "uSOM i2eX V1.2 (i.MX6 Dual)"
+[zSRSOM6Q12]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/imx-microsom-quad.jpg&w=150&trim=10
+[iSRSOM6Q12]:
+   SolidRun/SR-uSOM-MX6/IMG/imx-microsom-quad.jpg
+   "uSOM i4Pro V1.2 (i.MX6 Quad)"
+[zSRSOM6Q15]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/sr-imx6-som-user_manual-rev1.3-001.jpg&w=150&trim=10
+[iSRSOM6Q15]:
+   SolidRun/SR-uSOM-MX6/IMG/sr-imx6-som-user_manual-rev1.3-001.jpg
+   "uSOM i4Pro V1.5 (i.MX6 Quad)"
 
 #### Construction
 
-| Release    | Schematic<span class='note'>\*</span>         | Layout (PCB)                                  | 2D Drawing                                    | 3D Model                                      | Status     |
+| Release    | Schematic<span style='color:#f03c15;'>\*</span> | Layout (PCB)                                | 2D Drawing                                    | 3D Model                                      | Status     |
 | :--------: | :-------------------------------------------: | :-------------------------------------------: | :-------------------------------------------: | :-------------------------------------------: | :--------: |
 | V1.1       |                                               |                                               |                                               |                                               | **EOL**    |
 | V1.2       |                                               |                                               |                                               |                                               | **EOL**    |
@@ -410,8 +430,9 @@ https://askubuntu.com/a/1136178
 | V1.4       |                                               |                                               |                                               |                                               | **EOL**    |
 | V1.5       | [PDF][dSRSOM6V15PSC]                          | 2016-10-26                                    | [PDF][dSRSOM6V15P2D]                          | [STP][dSRSOM6V15STP] ([PDF][dSRSOM6V15P3D])   |            |
 
-<span class='note'>\* NOTE:</span> **All schematics are simplified and coming
-without DDR3-SDRAM and core voltage regulator!**
+<span style='font-weight:bold;color:#f03c15;'>\*NOTE:</span>
+**All schematics are simplified and coming without DDR3-SDRAM
+  and core voltage regulator!**
 
 [dSRSOM6V13PSC]:
    SolidRun/SR-uSOM-MX6/CAD/sr-usom-mx6-rev-1_3-simplified-schematics.pdf
@@ -497,16 +518,32 @@ WandBoard SOM reference design [WBQUAD REV B1 (20130620)]. That are:**
 
 #### Assembly
 
-| ![Board 2017-03-12 Top][iSRSOM6BRDC]      | ![Board 2017-03-12 Bottom][iSRSOM6BRDP]      |
+| [![zSRSOM6BRDC]][iSRSOM6BRDC]             | [![zSRSOM6BRDP]][iSRSOM6BRDP]                |
 | :---------------------------------------: | :------------------------------------------: |
 | *SR-uSOM-MX6 - top (component side)*      | *SR-uSOM-MX6 - bottom (print/solder side)*   |
-| ![Board 2017-03-12 Block][iSRSOM6BRDB]    | ![Board 2017-03-12 Heatsink][iSRSOM6BRDH]    |
+| [![zSRSOM6BRDB]][iSRSOM6BRDB]             | [![zSRSOM6BRDH]][iSRSOM6BRDH]                |
 | *SR-uSOM-MX6 - i1 / i2 / i2eX / i4Pro*    | *SR-uSOM-MX6 - heatsink*                     |
 
-[iSRSOM6BRDC]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/SOM-iMX6-top-hotspots.png&w=300
-[iSRSOM6BRDP]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/SOM-iMX6-back-hotspots.png&w=300
-[iSRSOM6BRDB]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/DOC/Rev-1.5-Block-Digaram-1024x737.png&w=600
-[iSRSOM6BRDH]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/SOM-iMX6-heatsink.jpg&w=300
+[zSRSOM6BRDC]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/SOM-iMX6-top-hotspots.png&w=300&trim=10
+[iSRSOM6BRDC]:
+   SolidRun/SR-uSOM-MX6/IMG/SOM-iMX6-top-hotspots.png
+   "Board 2017-03-12 Top"
+[zSRSOM6BRDP]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/SOM-iMX6-back-hotspots.png&w=300&trim=10
+[iSRSOM6BRDP]:
+   SolidRun/SR-uSOM-MX6/IMG/SOM-iMX6-back-hotspots.png
+   "Board 2017-03-12 Bottom"
+[zSRSOM6BRDB]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/DOC/Rev-1.5-Block-Digaram-1024x737.png&w=600&trim=10
+[iSRSOM6BRDB]:
+   SolidRun/SR-uSOM-MX6/DOC/Rev-1.5-Block-Digaram-1024x737.png
+   "Board 2017-03-12 Block"
+[zSRSOM6BRDH]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/SolidRun/SR-uSOM-MX6/IMG/SOM-iMX6-heatsink.jpg&w=300&trim=10
+[iSRSOM6BRDH]:
+   SolidRun/SR-uSOM-MX6/IMG/SOM-iMX6-heatsink.jpg
+   "Board 2017-03-12 Heatsink"
 
 * https://www.solid-run.com/nxp-family/imx6-som
 * https://developer.solid-run.com/products/imx6-som
