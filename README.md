@@ -52,16 +52,26 @@ https://askubuntu.com/a/1136178
 | :------------------------------------------------- | :-------------------------------------------- | :--------------------------------------- | :-------------: | :-------------- | :-------------: |
 | USB to Serial Bridge Controller, 3.3/5V, USB 1.1   | [*Prolific*](Prolific/00-comefrom-urls)       | [**PL2303HX**](Prolific/PL2303)          | `U1`            | SSOP28-0.65mm   | [IMG][iCUCPLC]  |
 
-[iCUCPLC]: Cubietech/USBUARTCable/IMG/cubieboard-uart-4.jpg
+[iCUCPLC]:
+   Cubietech/USBUARTCable/IMG/cubieboard-uart-4.jpg
+   "Prolific PL-2303HX"
 
 #### Assembly
 
-| ![Cable][iCUCCABLE]          | ![Board][iCUCBOARD]          |
+| [![zCUCCABLE]][iCUCCABLE]    | [![zCUCBOARD]][iCUCBOARD]    |
 | :--------------------------: | :--------------------------: |
 | *UART 3.3V TTL wires*        | *CubieBoard 1&2 connection*  |
 
-[iCUCCABLE]: Cubietech/USBUARTCable/IMG/cubieboard-uart-6.jpg
-[iCUCBOARD]: Cubietech/USBUARTCable/IMG/cubieboard-uart-3.jpg
+[zCUCCABLE]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/Cubietech/USBUARTCable/IMG/cubieboard-uart-6.jpg&w=600&trim=10
+[iCUCCABLE]:
+   Cubietech/USBUARTCable/IMG/cubieboard-uart-6.jpg
+   "USB UART 3.3V TTL Cable/Wires"
+[zCUCBOARD]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/Cubietech/USBUARTCable/IMG/cubieboard-uart-3.jpg&w=600&trim=10
+[iCUCBOARD]:
+   Cubietech/USBUARTCable/IMG/cubieboard-uart-3.jpg
+   "USB UART 3.3V TTL Board Connection"
 
 * http://www.cubietech.com/product-detail/usb-uart-cable
 * http://linux-sunxi.org/Cubieboard/TTL
