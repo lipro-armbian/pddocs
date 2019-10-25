@@ -213,23 +213,45 @@ https://askubuntu.com/a/1136178
 | IR Receiver                                        | [*Vishay*](Vishay/00-comefrom-urls)           | [**HS0038B**](Vishay)                    |                 | `U3`            |                 |                 |
 |                                                    |                                               | [**HS0038B-NEC**](Vishay)                | `U9`            |                 |                 |                 |
 
-[iCB2CPU]:  Cubietech/CubieBoard2/IMG/cubieboard2-9.jpg
-[iCB2DDR3]: Cubietech/CubieBoard2/IMG/cubieboard2-10.jpg
-[iCB2NAND]: Cubietech/CubieBoard2/DOC/cubieboard2-20120909-NAND.jpg
-[iCB2TSD]:  Cubietech/CubieBoard2/DOC/cubieboard2-20120909-TSD.jpg
-[iCB2SDC]:  Cubietech/CubieBoard2/DOC/cubieboard2-20120909-TFC2SDC.jpg
-[iCB2EMMC]: Cubietech/CubieBoard2/DOC/cubieboard2-20151211-EMMC.jpg
-[iCB2PMIC]: Cubietech/CubieBoard2/IMG/cubieboard2-14.jpg
-[iCB2SATA]: Cubietech/CubieBoard2/IMG/cubieboard2-13.jpg
-[iCB2EMAC]: Cubietech/CubieBoard2/IMG/cubieboard2-12.jpg
+[iCB2CPU]:
+   Cubietech/CubieBoard2/IMG/cubieboard2-9.jpg
+   "Allwinner A20 Cortex-A7 DualCore Mali 400 MP2"
+[iCB2DDR3]:
+   Cubietech/CubieBoard2/IMG/cubieboard2-10.jpg
+   "1 GB Hynix DDR3 32 Bit Width 256M*16*2pcs"
+[iCB2NAND]:
+   Cubietech/CubieBoard2/DOC/cubieboard2-20120909-NAND.jpg
+   "CubieBoard2 20120909 Nand"
+[iCB2SDC]:
+   Cubietech/CubieBoard2/DOC/cubieboard2-20120909-TFC2SDC.jpg
+   "CubieBoard2 20120909 DualCard"
+[iCB2TSD]:
+   Cubietech/CubieBoard2/DOC/cubieboard2-20120909-TSD.jpg
+   "CubieBoard2 20120909 TSD"
+[iCB2EMMC]:
+   Cubietech/CubieBoard2/DOC/cubieboard2-20151211-EMMC.jpg
+   "CubieBoard2 20151211 EMMC"
+[iCB2PMIC]:
+   Cubietech/CubieBoard2/IMG/cubieboard2-14.jpg
+   "Intelligent PMU Support Dynamic Voltage and Frequency Scaling (DVFS)"
+[iCB2SATA]:
+   Cubietech/CubieBoard2/IMG/cubieboard2-13.jpg
+   "SATA 2.0 3 GBPS 2.5'' SSD"
+[iCB2EMAC]:
+   Cubietech/CubieBoard2/IMG/cubieboard2-12.jpg
+   "Support 10/100Mbps RJ45"
 
 #### Assembly
 
-| ![Board 2012-09-09][iCB2BOARD]     |
-| :--------------------------------: |
-| *CubieBoard 2*                     |
+| [![zCB2BOARD]][iCB2BOARD]                                             |
+| :-------------------------------------------------------------------: |
+| *CubieBoard 2 - top (component side) - bottom (print/solder side)*    |
 
-[iCB2BOARD]: Cubietech/CubieBoard2/IMG/cubieboard2-8.jpg
+[zCB2BOARD]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/Cubietech/CubieBoard2/IMG/cubieboard2-8.jpg&trim=10
+[iCB2BOARD]:
+   Cubietech/CubieBoard2/IMG/cubieboard2-8.jpg
+   "Board 2012-09-09"
 
 * [How To Distinguish Your CubieBoard 2 Version](Cubietech/CubieBoard2/DOC/How%20To%20Distinguish%20Your%20CubieBoard2%20Version.pdf)
 * http://www.cubietech.com/product-detail/cubieboard2
@@ -239,12 +261,16 @@ https://askubuntu.com/a/1136178
 
 ##### Console
 
-| ![r12]&#x2757;<span class='note'>TTL 3.3V</span>&#x2757;![r12] |
-| :------------------------------------------------------------: |
-| &#x2B95; `console=ttyS0,115200n8`                              |
-| ![Console 2012-09-09][iCB2CONS]                                |
+| ![r12]&#x2757;<span style='color:#f03c15;'>TTL 3.3V</span>&#x2757;![r12] |
+| :----------------------------------------------------------------------: |
+| &#x2B95; `console=ttyS0,115200n8`                                        |
+| [![zCB2CONS]][iCB2CONS]                                                  |
 
-[iCB2CONS]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/Cubietech/USBUARTCable/IMG/Cubieboard.UART-TTL_wire_colors.jpg&w=300
+[zCB2CONS]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/Cubietech/USBUARTCable/IMG/Cubieboard.UART-TTL_wire_colors.jpg&w=300&trim=10
+[iCB2CONS]:
+   Cubietech/USBUARTCable/IMG/Cubieboard.UART-TTL_wire_colors.jpg
+   "Console 2012-09-09"
 
 * https://linux-sunxi.org/Cubietech_Cubieboard2#Adding_a_serial_port
 * http://linux-sunxi.org/Cubieboard/TTL
@@ -252,14 +278,26 @@ https://askubuntu.com/a/1136178
 
 ##### Expansion Ports
 
-| ![CB2 Expansion Ports Drawing][iCB2EXPPD]     | ![Cubian GPIO Pin Definition][iCB2GPIOD]      |
-| :-------------------------------------------: | :-------------------------------------------: |
-| [*Drawing*][dCB2EXPPD]                        | [*Drawing*][dCB2EXPPD]                        |
+| [![zCB2EXPPD]][iCB2EXPPD] | [![zCB2GPIOD]][iCB2GPIOD] |
+| :-----------------------: | :-----------------------: |
+| [PDF][dCB2EXPPD]          | [PDF][dCB2GPIOD]          |
 
-[iCB2EXPPD]: Cubietech/CubieBoard1/CAD/a10_a20_cubieboard_expansion_ports.png
-[dCB2EXPPD]: Cubietech/CubieBoard1/CAD/a10_a20_cubieboard_expansion_ports.pdf
-[iCB2GPIOD]: Cubietech/CubieBoard1/CAD/gpio_defination_large.jpg
-[dCB2GPIOD]: Cubietech/CubieBoard1/CAD/gpio_defination_cubian.pdf
+[zCB2EXPPD]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/Cubietech/CubieBoard1/CAD/a10_a20_cubieboard_expansion_ports.png&w=600&trim=10
+[iCB2EXPPD]:
+   Cubietech/CubieBoard1/CAD/a10_a20_cubieboard_expansion_ports.png
+   "CubieBoard 2 Expansion Ports Drawing Top: Drawing"
+[dCB2EXPPD]:
+   Cubietech/CubieBoard1/CAD/a10_a20_cubieboard_expansion_ports.pdf
+   "CubieBoard 2 Expansion Ports Drawing Top: Drawing"
+[zCB2GPIOD]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/Cubietech/CubieBoard1/CAD/gpio_defination_large.jpg&w=600&trim=10
+[iCB2GPIOD]:
+   Cubietech/CubieBoard1/CAD/gpio_defination_large.jpg
+   "Cubian GPIO Pin Definition Top: Drawing"
+[dCB2GPIOD]:
+   Cubietech/CubieBoard1/CAD/gpio_defination_cubian.pdf
+   "Cubian GPIO Pin Definition Top: Drawing"
 
 #### Armbian
 
