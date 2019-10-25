@@ -834,12 +834,6 @@ WandBoard SOM reference design [WBQUAD REV B1 (20130620)]. That are:**
 [g12]: https://placehold.it/15/c5f015/000000?text=+
 [b12]: https://placehold.it/15/1589F0/000000?text=+
 
-<style type="text/css">
-  .note { font-weight: bold; color: #f03c15; }
-  .good { font-weight: bold; color: #c5f015; }
-  .hint { font-weight: bold; color: #1589F0; }
-</style>
-
 <!--
 shell script I used to generare the TOC on top of this file manually:
 cat README.md \
