@@ -106,20 +106,36 @@ https://askubuntu.com/a/1136178
 | 10/100M Fast Ethernet PHY Receiver (EMAC)          | [*Realtek*](Realtek/00-comefrom-urls)         | [**RTL8201CP**](Realtek/RTL8201CP)       | `U13`           | LQFP48-0.5mm    | [IMG][iCB1EMAC] |
 | IR Receiver                                        | [*Vishay*](Vishay/00-comefrom-urls)           | [**HS0038B-NEC**](Vishay)                | `U9`            |                 |                 |
 
-[iCB1CPU]:  Cubietech/CubieBoard1/IMG/cubieboard1-6.jpg
-[iCB1DDR3]: Cubietech/CubieBoard1/IMG/cubieboard1-7-gt.jpg
-[iCB1NAND]: Cubietech/CubieBoard1/IMG/cubieboard2-22-samsung.jpg
-[iCB1PMIC]: Cubietech/CubieBoard1/IMG/cubieboard1-12.jpg
-[iCB1SATA]: Cubietech/CubieBoard1/IMG/cubieboard1-11.jpg
-[iCB1EMAC]: Cubietech/CubieBoard1/IMG/cubieboard1-10.jpg
+[iCB1CPU]:
+   Cubietech/CubieBoard1/IMG/cubieboard1-6.jpg
+   "Allwinner A10 Cortex-A8 Mali 400"
+[iCB1DDR3]:
+   Cubietech/CubieBoard1/IMG/cubieboard1-7-gt.jpg
+   "1 GB GT DDR3 32 Bit Width 256M*16*2pcs"
+[iCB1NAND]:
+   Cubietech/CubieBoard1/IMG/cubieboard2-22-samsung.jpg
+   "CubieBoard1 20120909 Nand"
+[iCB1PMIC]:
+   Cubietech/CubieBoard1/IMG/cubieboard1-12.jpg
+   "Intelligent PMU Support Dynamic Voltage and Frequency Scaling (DVFS)"
+[iCB1SATA]:
+   Cubietech/CubieBoard1/IMG/cubieboard1-11.jpg
+   "SATA 2.0 3 GBPS 2.5'' SSD"
+[iCB1EMAC]:
+   Cubietech/CubieBoard1/IMG/cubieboard1-10.jpg
+   "Support 10/100Mbps RJ45"
 
 #### Assembly
 
-| ![Board 2012-09-09][iCB1BOARD]     |
-| :--------------------------------: |
-| *CubieBoard 1*                     |
+| [![zCB1BOARD]][iCB1BOARD]                                             |
+| :-------------------------------------------------------------------: |
+| *CubieBoard 1 - top (component side) - bottom (print/solder side)*    |
 
-[iCB1BOARD]: Cubietech/CubieBoard1/IMG/cubieboard1-8.jpg
+[zCB1BOARD]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/Cubietech/CubieBoard1/IMG/cubieboard1-8.jpg&trim=10
+[iCB1BOARD]:
+   Cubietech/CubieBoard1/IMG/cubieboard1-8.jpg
+   "Board 2012-09-09"
 
 * http://www.cubietech.com/product-detail/cubieboard1
 * https://linux-sunxi.org/Cubietech_Cubieboard
@@ -129,12 +145,16 @@ https://askubuntu.com/a/1136178
 
 ##### Console
 
-| ![r12]&#x2757;<span class='note'>TTL 3.3V</span>&#x2757;![r12] |
-| :------------------------------------------------------------: |
-| &#x2B95; `console=ttyS0,115200n8`                              |
-| ![Console 2012-09-09][iCB1CONS]                                |
+| ![r12]&#x2757;<span style='color:#f03c15;'>TTL 3.3V</span>&#x2757;![r12] |
+| :----------------------------------------------------------------------: |
+| &#x2B95; `console=ttyS0,115200n8`                                        |
+| [![zCB1CONS]][iCB1CONS]                                                  |
 
-[iCB1CONS]: https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/Cubietech/USBUARTCable/IMG/Cubieboard.UART-TTL_wire_colors.jpg&w=300
+[zCB1CONS]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/Cubietech/USBUARTCable/IMG/Cubieboard.UART-TTL_wire_colors.jpg&w=300&trim=10
+[iCB1CONS]:
+   Cubietech/USBUARTCable/IMG/Cubieboard.UART-TTL_wire_colors.jpg
+   "Console 2012-09-09"
 
 * https://linux-sunxi.org/Cubietech_Cubieboard#Adding_a_serial_port
 * http://linux-sunxi.org/Cubieboard/TTL
@@ -142,14 +162,26 @@ https://askubuntu.com/a/1136178
 
 ##### Expansion Ports
 
-| ![CB1 Expansion Ports Drawing][iCB1EXPPD]     | ![Cubian GPIO Pin Definition][iCB1GPIOD]      |
-| :-------------------------------------------: | :-------------------------------------------: |
-| [*Drawing*][dCB1EXPPD]                        | [*Drawing*][dCB1EXPPD]                        |
+| [![zCB1EXPPD]][iCB1EXPPD] | [![zCB1GPIOD]][iCB1GPIOD] |
+| :-----------------------: | :-----------------------: |
+| [PDF][dCB1EXPPD]          | [PDF][dCB1GPIOD]          |
 
-[iCB1EXPPD]: Cubietech/CubieBoard1/CAD/a10_a20_cubieboard_expansion_ports.png
-[dCB1EXPPD]: Cubietech/CubieBoard1/CAD/a10_a20_cubieboard_expansion_ports.pdf
-[iCB1GPIOD]: Cubietech/CubieBoard1/CAD/gpio_defination_large.jpg
-[dCB1GPIOD]: Cubietech/CubieBoard1/CAD/gpio_defination_cubian.pdf
+[zCB1EXPPD]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/Cubietech/CubieBoard1/CAD/a10_a20_cubieboard_expansion_ports.png&w=600&trim=10
+[iCB1EXPPD]:
+   Cubietech/CubieBoard1/CAD/a10_a20_cubieboard_expansion_ports.png
+   "CubieBoard 1 Expansion Ports Drawing Top: Drawing"
+[dCB1EXPPD]:
+   Cubietech/CubieBoard1/CAD/a10_a20_cubieboard_expansion_ports.pdf
+   "CubieBoard 1 Expansion Ports Drawing Top: Drawing"
+[zCB1GPIOD]:
+   https://images.weserv.nl/?url=raw.githubusercontent.com/lipro-armbian/pddocs/master/Cubietech/CubieBoard1/CAD/gpio_defination_large.jpg&w=600&trim=10
+[iCB1GPIOD]:
+   Cubietech/CubieBoard1/CAD/gpio_defination_large.jpg
+   "Cubian GPIO Pin Definition Top: Drawing"
+[dCB1GPIOD]:
+   Cubietech/CubieBoard1/CAD/gpio_defination_cubian.pdf
+   "Cubian GPIO Pin Definition Top: Drawing"
 
 #### Armbian
 
